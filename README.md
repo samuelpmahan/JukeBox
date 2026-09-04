@@ -6,7 +6,9 @@ A revived TypeScript version of the 2018 graph recommender, currently focused on
 
 Raw recovered tracklists are **not committed**. `corpus/` and `*.csv` are ignored.
 
-`scratch/build-primitives.ts` consumes a local tracklist directory and emits `data/lostlands-2018.jukebox.json.gz`, a compact derived primitive store:
+`scratch/build-primitives.ts` consumes a local tracklist directory and emits a compact derived primitive store. The repository stores that gzip as binary-safe chunks under `data/lostlands-2018.jukebox.json.gz.part*`; the Pages build concatenates them, verifies gzip integrity and a pinned SHA-256, and serves the reconstructed gzip.
+
+The primitive store contains:
 
 - `artists`: canonical names
 - `tracks`: track identity + original/featured/variation attribution
@@ -14,12 +16,13 @@ Raw recovered tracklists are **not committed**. `corpus/` and `*.csv` are ignore
 - `selections`: `(track, selectorGroup, date)` observations
 - `transitions`: `(fromTrack, toTrack, selectorGroup, date)` observations
 
-It deliberately does **not** emit raw source lines, URLs, set titles, or complete ordered tracklists. The browser loads the gzip directly with `DecompressionStream`.
+It deliberately does **not** emit raw source lines, URLs, set titles, or complete ordered tracklists. The browser loads the derived gzip and decompresses it with `DecompressionStream`.
 
 Rebuild locally:
 
 ```bash
-npm run build:primitives -- /path/to/local/corpus data/lostlands-2018.jukebox.json.gz
+npm run build:primitives -- /path/to/local/corpus /tmp/lostlands-2018.jukebox.json.gz
+split -b 5000 -d -a 2 /tmp/lostlands-2018.jukebox.json.gz data/lostlands-2018.jukebox.json.gz.part
 ```
 
 ## Graph lessons carried forward
