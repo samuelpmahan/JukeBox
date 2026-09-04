@@ -1,0 +1,11 @@
+{
+  "name": "jukebox",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test src/*.test.ts",
+    "jukebox": "node --experimental-strip-types src/cli.ts",
+    "build:primitives": "node --experimental-strip-types scratch/build-primitives.ts"
+  }
+}
