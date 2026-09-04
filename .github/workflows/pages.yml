@@ -36,6 +36,41 @@ jobs:
           cp index.html _site/index.html
           cp data/*.jukebox.json.gz _site/data/
 
+          # Pages/CDN fetches of the gzip asset proved flaky in-browser. Keep the
+          # committed primitive store compressed, but inline those exact gzip bytes
+          # into the deployed page so startup has no second network dependency.
+          python3 - <<'PY'
+          from pathlib import Path
+          import base64
+
+          page = Path('_site/index.html')
+          data = Path('data/lostlands-2018.jukebox.json.gz')
+          html = page.read_text()
+          payload = base64.b64encode(data.read_bytes()).decode('ascii')
+
+          shim = f'''<script>
+          (() => {{
+            const nativeFetch = window.fetch.bind(window);
+            const payload = {payload!r};
+            window.fetch = (input, init) => {{
+              const url = typeof input === 'string' ? input : (input && input.url) || '';
+              if (url.endsWith('data/lostlands-2018.jukebox.json.gz') || url.endsWith('./data/lostlands-2018.jukebox.json.gz')) {{
+                const binary = atob(payload);
+                const bytes = new Uint8Array(binary.length);
+                for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+                return Promise.resolve(new Response(bytes, {{status: 200, headers: {{'Content-Type': 'application/gzip'}}}}));
+              }}
+              return nativeFetch(input, init);
+            }};
+          }})();
+          </script>'''
+
+          marker = '<script src="https://cdn.jsdelivr.net/npm/cytoscape@3.30.4/dist/cytoscape.min.js"></script>'
+          if marker not in html:
+              raise SystemExit('Cytoscape marker not found in index.html')
+          page.write_text(html.replace(marker, shim + '\n' + marker, 1))
+          PY
+
           echo "Page artifact:"
           find _site -maxdepth 2 -type f -print -exec du -h {} \;
 
