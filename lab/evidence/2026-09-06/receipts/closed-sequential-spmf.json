@@ -1,0 +1,423 @@
+{
+  "algorithm_identity": "upstream:SPMF/ClaSP@ffda99181e8ffa71a51a41792c568931f8573d19",
+  "args": {
+    "max_patterns": 25,
+    "timeout_seconds": 90,
+    "workdir": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/work/closed-sequential-spmf"
+  },
+  "artifacts": [
+    "patterns.local.json"
+  ],
+  "error": null,
+  "input_sha256": "2d8e1aedf53bd261e3b31eb0599c0f9f41d373a7d7e6b8a02033f5112ed82787",
+  "method": "closed-sequential-spmf",
+  "outputs": {
+    "build": {
+      "bridge_sha256": "d19923e0d55deef4c1013855e94cee4dc85df62cdfe0dbe9a60e4805409f1caa",
+      "class_files": 54,
+      "classes_sha256": "88669ec45bcce572de37e12c9b0651d10198bccda12657c644b1295a6ca2c403",
+      "license": "GPL-3.0 (upstream retained separately)",
+      "source": "https://github.com/philfv9/spmf-software",
+      "upstream_commit": "ffda99181e8ffa71a51a41792c568931f8573d19"
+    },
+    "effective_parameters": [
+      "0.01"
+    ],
+    "excluded_vocabulary_size": 0,
+    "gap_semantics": "unbounded ordered subsequence; singleton itemsets",
+    "implementation": "upstream SPMF ClaSP",
+    "input_encoding_sha256": "752f67b0700ee7a926514918959bcac67f2000e887e63965394c0b8869b09402",
+    "item_min_sets": 1,
+    "occurrence_support_checked": true,
+    "output_sha256": "9bcf989ea0b34cdaf2217679540206f5d83658aa7ae08de9d7cea9fa1f4c0352",
+    "pattern_count": 362,
+    "patterns": [
+      {
+        "length": 1,
+        "pattern_ids": [
+          "fcd822c51781b3b2"
+        ],
+        "support_sets": 13
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "e5b6ae183ea8b6d1"
+        ],
+        "support_sets": 23
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "b530affc5981b00e"
+        ],
+        "support_sets": 15
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "2d917a1301c8d169"
+        ],
+        "support_sets": 14
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "23deb289930e78ea"
+        ],
+        "support_sets": 28
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "64cc7af4d143a487"
+        ],
+        "support_sets": 22
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "5114feeba063f3fc"
+        ],
+        "support_sets": 14
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "0bc0208e9f829ceb"
+        ],
+        "support_sets": 23
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "469fab423d7fe5b8"
+        ],
+        "support_sets": 16
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "d8c69679dbfbccc5"
+        ],
+        "support_sets": 29
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "992f153af88ae9d8"
+        ],
+        "support_sets": 20
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "c253e607e0b7da93"
+        ],
+        "support_sets": 22
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "f714660cb122c75e"
+        ],
+        "support_sets": 13
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "509825c438cd6065"
+        ],
+        "support_sets": 15
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "d4b4d5463ac16015"
+        ],
+        "support_sets": 19
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "272e445a36cd9af3"
+        ],
+        "support_sets": 22
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "db3edb588a2ec2ac"
+        ],
+        "support_sets": 15
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "66c423ec259a001b"
+        ],
+        "support_sets": 33
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "96e04a7903df50b7"
+        ],
+        "support_sets": 19
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "1245a73504e85fc3"
+        ],
+        "support_sets": 13
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "71c55754cd659a0f"
+        ],
+        "support_sets": 15
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "61a45f99f4e22124"
+        ],
+        "support_sets": 17
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "a9b0fdc3c9341b02"
+        ],
+        "support_sets": 23
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "e992d72942f289cf"
+        ],
+        "support_sets": 16
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "528f1450bc2777d4"
+        ],
+        "support_sets": 14
+      },
+      {
+        "length": 2,
+        "pattern_ids": [
+          "22bf9ca520ea6e23",
+          "97af02768626b49c"
+        ],
+        "support_sets": 13
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "bd1c37848c15b739"
+        ],
+        "support_sets": 45
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "b92d8481079e0b8f"
+        ],
+        "support_sets": 14
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "fb60dd734718eff5"
+        ],
+        "support_sets": 14
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "a3c2e48921ebbf6b"
+        ],
+        "support_sets": 28
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "d821c01efa360175"
+        ],
+        "support_sets": 26
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "d842bd678e63ec13"
+        ],
+        "support_sets": 14
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "b274c8a6183a6739"
+        ],
+        "support_sets": 17
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "1555c96853643304"
+        ],
+        "support_sets": 14
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "a800c9fce29ada0a"
+        ],
+        "support_sets": 13
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "aba77b14733cc93a"
+        ],
+        "support_sets": 17
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "dfc5ca7425b5a71f"
+        ],
+        "support_sets": 44
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "9eb9e59f1f72a83d"
+        ],
+        "support_sets": 16
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "09409e70a3b7910b"
+        ],
+        "support_sets": 31
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "1c48bdecc61b92c9"
+        ],
+        "support_sets": 14
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "3507d6b9e0c3ce88"
+        ],
+        "support_sets": 41
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "7c8a86a27b98917e"
+        ],
+        "support_sets": 51
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "57139d1e5d445d81"
+        ],
+        "support_sets": 23
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "e9884b5e5affba04"
+        ],
+        "support_sets": 16
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "a025401cc786fde0"
+        ],
+        "support_sets": 13
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "688664f46edd503a"
+        ],
+        "support_sets": 26
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "fd984d82d119dfed"
+        ],
+        "support_sets": 31
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "23cff30c446e00a4"
+        ],
+        "support_sets": 16
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "2a7027315508db89"
+        ],
+        "support_sets": 26
+      },
+      {
+        "length": 1,
+        "pattern_ids": [
+          "2b34857d29f40fc6"
+        ],
+        "support_sets": 29
+      }
+    ],
+    "preview_limit": 50,
+    "set_count": 1222,
+    "upstream_commit": "ffda99181e8ffa71a51a41792c568931f8573d19",
+    "vocabulary_size": 19282
+  },
+  "schema": "jukebox-lab-receipt/v1",
+  "status": "SUCCESS",
+  "tick": {
+    "id": "fc6d780a8bf4254b",
+    "reads": [
+      {
+        "material": "px.corpus",
+        "path": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/materials/px.corpus.json",
+        "sha256": "0cb44013ce90bb1b16c473c72ad51357eef440c46f4f4bdcdb2210df5e87ba7b"
+      },
+      {
+        "material": "px.args.closed-sequential-spmf",
+        "path": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/materials/px.args.closed-sequential-spmf.json",
+        "sha256": "ae8ff1a0da2deaf5ce1284d6a11e0e1262d1e59bba54b58c808502c0b6dc0587"
+      },
+      {
+        "material": "fn.closed-sequential-spmf",
+        "path": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/materials/fn.closed-sequential-spmf.json",
+        "sha256": "5ed98972a117ad68910903083a3400e0630e88055b83c9abee7bdf901e7cbd31"
+      }
+    ],
+    "writes": [
+      {
+        "material": "px.results.closed-sequential-spmf",
+        "path": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/materials/px.results.closed-sequential-spmf.json",
+        "sha256": "71b146cdd5fd7986b2c5e778990def4dd6c13407d3814905ee3e23d79282926f"
+      }
+    ]
+  },
+  "tick_id": "fc6d780a8bf4254b",
+  "timing_ms": 669
+}

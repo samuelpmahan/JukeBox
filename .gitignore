@@ -2,3 +2,9 @@ corpus/
 *.csv
 .DS_Store
 node_modules/
+lab-output/
+lab-work/
+lab/.tools/
+lab-runs/
+lab/.runs/
+__pycache__/

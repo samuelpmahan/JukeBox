@@ -1,0 +1,1472 @@
+{
+  "algorithm_identity": "kleinberg-binned-binomial-dp/v1",
+  "args": {
+    "max_patterns": 25,
+    "timeout_seconds": 90,
+    "workdir": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/work/kleinberg-binned"
+  },
+  "artifacts": [],
+  "error": null,
+  "input_sha256": "2d8e1aedf53bd261e3b31eb0599c0f9f41d373a7d7e6b8a02033f5112ed82787",
+  "method": "kleinberg-binned",
+  "outputs": {
+    "bin_count": 44,
+    "binning": "month",
+    "burst_token_count": 419,
+    "bursts": [
+      {
+        "baseline_selection_share": 0.02536825,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 3,
+            "eligible_set_count": 88,
+            "end": "2013-07-01",
+            "level": 1,
+            "present_set_count": 21,
+            "selection_share": 0.23863636,
+            "start": "2013-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 25,
+            "end": "2013-11-01",
+            "level": 1,
+            "present_set_count": 2,
+            "selection_share": 0.08,
+            "start": "2013-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 1,
+            "end": "2014-01-01",
+            "level": 1,
+            "present_set_count": 0,
+            "selection_share": 0.0,
+            "start": "2014-01-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 13,
+            "end": "2014-03-01",
+            "level": 1,
+            "present_set_count": 1,
+            "selection_share": 0.07692308,
+            "start": "2014-03-01"
+          },
+          {
+            "bin_count": 3,
+            "eligible_set_count": 88,
+            "end": "2013-07-01",
+            "level": 2,
+            "present_set_count": 21,
+            "selection_share": 0.23863636,
+            "start": "2013-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 25,
+            "end": "2013-11-01",
+            "level": 2,
+            "present_set_count": 2,
+            "selection_share": 0.08,
+            "start": "2013-11-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 87,
+            "end": "2013-06-01",
+            "level": 3,
+            "present_set_count": 21,
+            "selection_share": 0.24137931,
+            "start": "2013-05-01"
+          }
+        ],
+        "max_level": 3,
+        "path_gain": 20.14483783,
+        "present_set_count": 31,
+        "token_sha256": "a470feee3f2bf6a667207a2803457309671600dda5926e32b98b413de265e3e7"
+      },
+      {
+        "baseline_selection_share": 0.01554828,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 3,
+            "eligible_set_count": 88,
+            "end": "2013-07-01",
+            "level": 1,
+            "present_set_count": 14,
+            "selection_share": 0.15909091,
+            "start": "2013-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 25,
+            "end": "2013-11-01",
+            "level": 1,
+            "present_set_count": 1,
+            "selection_share": 0.04,
+            "start": "2013-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 1,
+            "end": "2014-01-01",
+            "level": 1,
+            "present_set_count": 0,
+            "selection_share": 0.0,
+            "start": "2014-01-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 13,
+            "end": "2014-03-01",
+            "level": 1,
+            "present_set_count": 1,
+            "selection_share": 0.07692308,
+            "start": "2014-03-01"
+          },
+          {
+            "bin_count": 3,
+            "eligible_set_count": 88,
+            "end": "2013-07-01",
+            "level": 2,
+            "present_set_count": 14,
+            "selection_share": 0.15909091,
+            "start": "2013-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 25,
+            "end": "2013-11-01",
+            "level": 2,
+            "present_set_count": 1,
+            "selection_share": 0.04,
+            "start": "2013-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 1,
+            "end": "2014-01-01",
+            "level": 2,
+            "present_set_count": 0,
+            "selection_share": 0.0,
+            "start": "2014-01-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 13,
+            "end": "2014-03-01",
+            "level": 2,
+            "present_set_count": 1,
+            "selection_share": 0.07692308,
+            "start": "2014-03-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 87,
+            "end": "2013-06-01",
+            "level": 3,
+            "present_set_count": 14,
+            "selection_share": 0.16091954,
+            "start": "2013-05-01"
+          }
+        ],
+        "max_level": 3,
+        "path_gain": 10.06756716,
+        "present_set_count": 19,
+        "token_sha256": "2923481881d08a8bd9c6bb79013a178dd9316ef647c149503c6e6bfb7ccf0f2d"
+      },
+      {
+        "baseline_selection_share": 0.01227496,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 1,
+            "eligible_set_count": 50,
+            "end": "2018-09-01",
+            "level": 1,
+            "present_set_count": 10,
+            "selection_share": 0.2,
+            "start": "2018-09-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 39,
+            "end": "2018-11-01",
+            "level": 1,
+            "present_set_count": 3,
+            "selection_share": 0.07692308,
+            "start": "2018-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 50,
+            "end": "2018-09-01",
+            "level": 2,
+            "present_set_count": 10,
+            "selection_share": 0.2,
+            "start": "2018-09-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 39,
+            "end": "2018-11-01",
+            "level": 2,
+            "present_set_count": 3,
+            "selection_share": 0.07692308,
+            "start": "2018-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 50,
+            "end": "2018-09-01",
+            "level": 3,
+            "present_set_count": 10,
+            "selection_share": 0.2,
+            "start": "2018-09-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 39,
+            "end": "2018-11-01",
+            "level": 3,
+            "present_set_count": 3,
+            "selection_share": 0.07692308,
+            "start": "2018-11-01"
+          }
+        ],
+        "max_level": 3,
+        "path_gain": 8.69589899,
+        "present_set_count": 15,
+        "token_sha256": "a89c03306c8777e2a09c43757aab4841742d74022deab056b1bfe48e5417677f"
+      },
+      {
+        "baseline_selection_share": 0.01227496,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 1,
+            "eligible_set_count": 42,
+            "end": "2011-06-01",
+            "level": 1,
+            "present_set_count": 6,
+            "selection_share": 0.14285714,
+            "start": "2011-06-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 80,
+            "end": "2012-06-01",
+            "level": 1,
+            "present_set_count": 8,
+            "selection_share": 0.1,
+            "start": "2012-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 42,
+            "end": "2011-06-01",
+            "level": 2,
+            "present_set_count": 6,
+            "selection_share": 0.14285714,
+            "start": "2011-06-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 80,
+            "end": "2012-06-01",
+            "level": 2,
+            "present_set_count": 8,
+            "selection_share": 0.1,
+            "start": "2012-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 42,
+            "end": "2011-06-01",
+            "level": 3,
+            "present_set_count": 6,
+            "selection_share": 0.14285714,
+            "start": "2011-06-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 80,
+            "end": "2012-06-01",
+            "level": 3,
+            "present_set_count": 8,
+            "selection_share": 0.1,
+            "start": "2012-05-01"
+          }
+        ],
+        "max_level": 3,
+        "path_gain": 7.86298112,
+        "present_set_count": 15,
+        "token_sha256": "9cef80da9d5ee2ce2612a6f5079128b890546043d72429b26cb03cbe588c5453"
+      },
+      {
+        "baseline_selection_share": 0.01309329,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 2,
+            "eligible_set_count": 80,
+            "end": "2012-06-01",
+            "level": 1,
+            "present_set_count": 11,
+            "selection_share": 0.1375,
+            "start": "2012-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 3,
+            "end": "2012-11-01",
+            "level": 1,
+            "present_set_count": 1,
+            "selection_share": 0.33333333,
+            "start": "2012-11-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 87,
+            "end": "2013-06-01",
+            "level": 1,
+            "present_set_count": 3,
+            "selection_share": 0.03448276,
+            "start": "2013-05-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 80,
+            "end": "2012-06-01",
+            "level": 2,
+            "present_set_count": 11,
+            "selection_share": 0.1375,
+            "start": "2012-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 3,
+            "end": "2012-11-01",
+            "level": 2,
+            "present_set_count": 1,
+            "selection_share": 0.33333333,
+            "start": "2012-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 22,
+            "end": "2013-05-01",
+            "level": 2,
+            "present_set_count": 1,
+            "selection_share": 0.04545455,
+            "start": "2013-05-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 80,
+            "end": "2012-06-01",
+            "level": 3,
+            "present_set_count": 11,
+            "selection_share": 0.1375,
+            "start": "2012-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 3,
+            "end": "2012-11-01",
+            "level": 3,
+            "present_set_count": 1,
+            "selection_share": 0.33333333,
+            "start": "2012-11-01"
+          }
+        ],
+        "max_level": 3,
+        "path_gain": 7.69131981,
+        "present_set_count": 16,
+        "token_sha256": "11810faedfbebd328f5e325a1e02ea43e2348c812cb8a9d46160153e02470717"
+      },
+      {
+        "baseline_selection_share": 0.00900164,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 2,
+            "eligible_set_count": 80,
+            "end": "2012-06-01",
+            "level": 1,
+            "present_set_count": 11,
+            "selection_share": 0.1375,
+            "start": "2012-05-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 80,
+            "end": "2012-06-01",
+            "level": 2,
+            "present_set_count": 11,
+            "selection_share": 0.1375,
+            "start": "2012-05-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 80,
+            "end": "2012-06-01",
+            "level": 3,
+            "present_set_count": 11,
+            "selection_share": 0.1375,
+            "start": "2012-05-01"
+          }
+        ],
+        "max_level": 3,
+        "path_gain": 6.9208966,
+        "present_set_count": 11,
+        "token_sha256": "143ab00931341b955edd41eb6732cce9399123c91f03787f69e087955b4778b7"
+      },
+      {
+        "baseline_selection_share": 0.01145663,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 2,
+            "eligible_set_count": 80,
+            "end": "2012-06-01",
+            "level": 1,
+            "present_set_count": 11,
+            "selection_share": 0.1375,
+            "start": "2012-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 3,
+            "end": "2012-11-01",
+            "level": 1,
+            "present_set_count": 0,
+            "selection_share": 0.0,
+            "start": "2012-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 22,
+            "end": "2013-05-01",
+            "level": 1,
+            "present_set_count": 1,
+            "selection_share": 0.04545455,
+            "start": "2013-05-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 80,
+            "end": "2012-06-01",
+            "level": 2,
+            "present_set_count": 11,
+            "selection_share": 0.1375,
+            "start": "2012-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 3,
+            "end": "2012-11-01",
+            "level": 2,
+            "present_set_count": 0,
+            "selection_share": 0.0,
+            "start": "2012-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 22,
+            "end": "2013-05-01",
+            "level": 2,
+            "present_set_count": 1,
+            "selection_share": 0.04545455,
+            "start": "2013-05-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 80,
+            "end": "2012-06-01",
+            "level": 3,
+            "present_set_count": 11,
+            "selection_share": 0.1375,
+            "start": "2012-05-01"
+          }
+        ],
+        "max_level": 3,
+        "path_gain": 6.15305576,
+        "present_set_count": 14,
+        "token_sha256": "9d609fc961bcf4743209e119e9fade2d10be9d111005271a1f224764174faf33"
+      },
+      {
+        "baseline_selection_share": 0.00818331,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 4,
+            "eligible_set_count": 78,
+            "end": "2017-12-01",
+            "level": 1,
+            "present_set_count": 9,
+            "selection_share": 0.11538462,
+            "start": "2017-09-01"
+          },
+          {
+            "bin_count": 4,
+            "eligible_set_count": 78,
+            "end": "2017-12-01",
+            "level": 2,
+            "present_set_count": 9,
+            "selection_share": 0.11538462,
+            "start": "2017-09-01"
+          },
+          {
+            "bin_count": 3,
+            "eligible_set_count": 52,
+            "end": "2017-12-01",
+            "level": 3,
+            "present_set_count": 8,
+            "selection_share": 0.15384615,
+            "start": "2017-10-01"
+          }
+        ],
+        "max_level": 3,
+        "path_gain": 3.35764585,
+        "present_set_count": 10,
+        "token_sha256": "4de1d06b87d3d0d86c31bc40b685f3f6f94b47a3192fa0a76ee8aff69fb60cf4"
+      },
+      {
+        "baseline_selection_share": 0.00818331,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 3,
+            "eligible_set_count": 75,
+            "end": "2017-11-01",
+            "level": 1,
+            "present_set_count": 8,
+            "selection_share": 0.10666667,
+            "start": "2017-09-01"
+          },
+          {
+            "bin_count": 3,
+            "eligible_set_count": 75,
+            "end": "2017-11-01",
+            "level": 2,
+            "present_set_count": 8,
+            "selection_share": 0.10666667,
+            "start": "2017-09-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 36,
+            "end": "2017-10-01",
+            "level": 3,
+            "present_set_count": 7,
+            "selection_share": 0.19444444,
+            "start": "2017-09-01"
+          }
+        ],
+        "max_level": 3,
+        "path_gain": 1.84473436,
+        "present_set_count": 10,
+        "token_sha256": "86e5b4149dc5ed2fa828d8f4282b48aa41c55fd507c009efa971acc4455cf36a"
+      },
+      {
+        "baseline_selection_share": 0.00736498,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 1,
+            "eligible_set_count": 39,
+            "end": "2018-11-01",
+            "level": 1,
+            "present_set_count": 7,
+            "selection_share": 0.17948718,
+            "start": "2018-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 39,
+            "end": "2018-11-01",
+            "level": 2,
+            "present_set_count": 7,
+            "selection_share": 0.17948718,
+            "start": "2018-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 39,
+            "end": "2018-11-01",
+            "level": 3,
+            "present_set_count": 7,
+            "selection_share": 0.17948718,
+            "start": "2018-11-01"
+          }
+        ],
+        "max_level": 3,
+        "path_gain": 1.42939332,
+        "present_set_count": 9,
+        "token_sha256": "60ecab2a78ae61da758451ecb44584d66dfea7d535dc07a4f2ea05a63bdf4f80"
+      },
+      {
+        "baseline_selection_share": 0.02373159,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 3,
+            "eligible_set_count": 139,
+            "end": "2018-07-01",
+            "level": 1,
+            "present_set_count": 13,
+            "selection_share": 0.09352518,
+            "start": "2018-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 50,
+            "end": "2018-09-01",
+            "level": 1,
+            "present_set_count": 11,
+            "selection_share": 0.22,
+            "start": "2018-09-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 39,
+            "end": "2018-11-01",
+            "level": 1,
+            "present_set_count": 2,
+            "selection_share": 0.05128205,
+            "start": "2018-11-01"
+          },
+          {
+            "bin_count": 3,
+            "eligible_set_count": 139,
+            "end": "2018-07-01",
+            "level": 2,
+            "present_set_count": 13,
+            "selection_share": 0.09352518,
+            "start": "2018-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 50,
+            "end": "2018-09-01",
+            "level": 2,
+            "present_set_count": 11,
+            "selection_share": 0.22,
+            "start": "2018-09-01"
+          }
+        ],
+        "max_level": 2,
+        "path_gain": 13.63950408,
+        "present_set_count": 29,
+        "token_sha256": "d8c69679dbfbccc5218eb23ac4ef6435cd5866b815e47a7b8c6a4e503cf846f9"
+      },
+      {
+        "baseline_selection_share": 0.03109656,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 9,
+            "eligible_set_count": 214,
+            "end": "2018-07-01",
+            "level": 1,
+            "present_set_count": 27,
+            "selection_share": 0.12616822,
+            "start": "2017-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 50,
+            "end": "2018-09-01",
+            "level": 1,
+            "present_set_count": 4,
+            "selection_share": 0.08,
+            "start": "2018-09-01"
+          },
+          {
+            "bin_count": 7,
+            "eligible_set_count": 212,
+            "end": "2018-05-01",
+            "level": 2,
+            "present_set_count": 27,
+            "selection_share": 0.12735849,
+            "start": "2017-11-01"
+          }
+        ],
+        "max_level": 2,
+        "path_gain": 12.29402814,
+        "present_set_count": 38,
+        "token_sha256": "d52fa0f65295a44ce2aa059d4bdb1b8066098e1b6b18ee9cd58a3a15fc5abbb4"
+      },
+      {
+        "baseline_selection_share": 0.0212766,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 9,
+            "eligible_set_count": 214,
+            "end": "2018-07-01",
+            "level": 1,
+            "present_set_count": 15,
+            "selection_share": 0.07009346,
+            "start": "2017-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 50,
+            "end": "2018-09-01",
+            "level": 1,
+            "present_set_count": 7,
+            "selection_share": 0.14,
+            "start": "2018-09-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 39,
+            "end": "2018-11-01",
+            "level": 1,
+            "present_set_count": 4,
+            "selection_share": 0.1025641,
+            "start": "2018-11-01"
+          },
+          {
+            "bin_count": 9,
+            "eligible_set_count": 214,
+            "end": "2018-07-01",
+            "level": 2,
+            "present_set_count": 15,
+            "selection_share": 0.07009346,
+            "start": "2017-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 50,
+            "end": "2018-09-01",
+            "level": 2,
+            "present_set_count": 7,
+            "selection_share": 0.14,
+            "start": "2018-09-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 39,
+            "end": "2018-11-01",
+            "level": 2,
+            "present_set_count": 4,
+            "selection_share": 0.1025641,
+            "start": "2018-11-01"
+          }
+        ],
+        "max_level": 2,
+        "path_gain": 9.74909363,
+        "present_set_count": 26,
+        "token_sha256": "55924c7566515fffd9e7ec2180d30ca1d4c6c0199df12bd18d8003727ad96d53"
+      },
+      {
+        "baseline_selection_share": 0.02454992,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 11,
+            "eligible_set_count": 250,
+            "end": "2018-07-01",
+            "level": 1,
+            "present_set_count": 19,
+            "selection_share": 0.076,
+            "start": "2017-09-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 50,
+            "end": "2018-09-01",
+            "level": 1,
+            "present_set_count": 8,
+            "selection_share": 0.16,
+            "start": "2018-09-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 39,
+            "end": "2018-11-01",
+            "level": 1,
+            "present_set_count": 2,
+            "selection_share": 0.05128205,
+            "start": "2018-11-01"
+          },
+          {
+            "bin_count": 3,
+            "eligible_set_count": 75,
+            "end": "2017-11-01",
+            "level": 2,
+            "present_set_count": 12,
+            "selection_share": 0.16,
+            "start": "2017-09-01"
+          }
+        ],
+        "max_level": 2,
+        "path_gain": 9.56383255,
+        "present_set_count": 30,
+        "token_sha256": "ed701d27b99ab77fc428f61397a047075481cc7e6a4fbf371d42ec04fdb80d51"
+      },
+      {
+        "baseline_selection_share": 0.02536825,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 11,
+            "eligible_set_count": 250,
+            "end": "2018-07-01",
+            "level": 1,
+            "present_set_count": 19,
+            "selection_share": 0.076,
+            "start": "2017-09-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 50,
+            "end": "2018-09-01",
+            "level": 1,
+            "present_set_count": 9,
+            "selection_share": 0.18,
+            "start": "2018-09-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 39,
+            "end": "2018-11-01",
+            "level": 1,
+            "present_set_count": 2,
+            "selection_share": 0.05128205,
+            "start": "2018-11-01"
+          },
+          {
+            "bin_count": 11,
+            "eligible_set_count": 250,
+            "end": "2018-07-01",
+            "level": 2,
+            "present_set_count": 19,
+            "selection_share": 0.076,
+            "start": "2017-09-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 50,
+            "end": "2018-09-01",
+            "level": 2,
+            "present_set_count": 9,
+            "selection_share": 0.18,
+            "start": "2018-09-01"
+          }
+        ],
+        "max_level": 2,
+        "path_gain": 9.49899828,
+        "present_set_count": 31,
+        "token_sha256": "09409e70a3b7910b0488e176b7277c6127ac57b1613b59608650e152b0fb3448"
+      },
+      {
+        "baseline_selection_share": 0.03355155,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 1,
+            "eligible_set_count": 13,
+            "end": "2014-03-01",
+            "level": 1,
+            "present_set_count": 1,
+            "selection_share": 0.07692308,
+            "start": "2014-03-01"
+          },
+          {
+            "bin_count": 3,
+            "eligible_set_count": 147,
+            "end": "2014-07-01",
+            "level": 1,
+            "present_set_count": 20,
+            "selection_share": 0.13605442,
+            "start": "2014-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 39,
+            "end": "2014-11-01",
+            "level": 1,
+            "present_set_count": 3,
+            "selection_share": 0.07692308,
+            "start": "2014-11-01"
+          },
+          {
+            "bin_count": 3,
+            "eligible_set_count": 22,
+            "end": "2015-03-01",
+            "level": 1,
+            "present_set_count": 3,
+            "selection_share": 0.13636364,
+            "start": "2015-01-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 144,
+            "end": "2014-06-01",
+            "level": 2,
+            "present_set_count": 20,
+            "selection_share": 0.13888889,
+            "start": "2014-05-01"
+          }
+        ],
+        "max_level": 2,
+        "path_gain": 8.853594,
+        "present_set_count": 41,
+        "token_sha256": "3507d6b9e0c3ce883741c270672163e9c38830d61a13f5dcd2773c9c3be6df21"
+      },
+      {
+        "baseline_selection_share": 0.0294599,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 1,
+            "eligible_set_count": 13,
+            "end": "2014-03-01",
+            "level": 1,
+            "present_set_count": 1,
+            "selection_share": 0.07692308,
+            "start": "2014-03-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 144,
+            "end": "2014-06-01",
+            "level": 1,
+            "present_set_count": 20,
+            "selection_share": 0.13888889,
+            "start": "2014-05-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 144,
+            "end": "2014-06-01",
+            "level": 2,
+            "present_set_count": 20,
+            "selection_share": 0.13888889,
+            "start": "2014-05-01"
+          }
+        ],
+        "max_level": 2,
+        "path_gain": 8.59644244,
+        "present_set_count": 36,
+        "token_sha256": "8a53476f926c8bafb0f1d5e15ae56dae65e5499e8746ebabf40b5e1512197b78"
+      },
+      {
+        "baseline_selection_share": 0.02291326,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 2,
+            "eligible_set_count": 126,
+            "end": "2017-07-01",
+            "level": 1,
+            "present_set_count": 12,
+            "selection_share": 0.0952381,
+            "start": "2017-06-01"
+          },
+          {
+            "bin_count": 6,
+            "eligible_set_count": 105,
+            "end": "2018-02-01",
+            "level": 1,
+            "present_set_count": 10,
+            "selection_share": 0.0952381,
+            "start": "2017-09-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 126,
+            "end": "2017-07-01",
+            "level": 2,
+            "present_set_count": 12,
+            "selection_share": 0.0952381,
+            "start": "2017-06-01"
+          },
+          {
+            "bin_count": 6,
+            "eligible_set_count": 105,
+            "end": "2018-02-01",
+            "level": 2,
+            "present_set_count": 10,
+            "selection_share": 0.0952381,
+            "start": "2017-09-01"
+          }
+        ],
+        "max_level": 2,
+        "path_gain": 7.63881004,
+        "present_set_count": 28,
+        "token_sha256": "7a15c0a34ef5ce49c4ae92dbee460de0d4ff0acaa12ff7c421813f2ea5305869"
+      },
+      {
+        "baseline_selection_share": 0.0188216,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 2,
+            "eligible_set_count": 126,
+            "end": "2017-07-01",
+            "level": 1,
+            "present_set_count": 10,
+            "selection_share": 0.07936508,
+            "start": "2017-06-01"
+          },
+          {
+            "bin_count": 6,
+            "eligible_set_count": 105,
+            "end": "2018-02-01",
+            "level": 1,
+            "present_set_count": 10,
+            "selection_share": 0.0952381,
+            "start": "2017-09-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 126,
+            "end": "2017-07-01",
+            "level": 2,
+            "present_set_count": 10,
+            "selection_share": 0.07936508,
+            "start": "2017-06-01"
+          },
+          {
+            "bin_count": 6,
+            "eligible_set_count": 105,
+            "end": "2018-02-01",
+            "level": 2,
+            "present_set_count": 10,
+            "selection_share": 0.0952381,
+            "start": "2017-09-01"
+          }
+        ],
+        "max_level": 2,
+        "path_gain": 7.6065409,
+        "present_set_count": 23,
+        "token_sha256": "57139d1e5d445d81d755173c3c1094b68e03618d77b236685c0eb7cbf4cee9d2"
+      },
+      {
+        "baseline_selection_share": 0.02291326,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 3,
+            "eligible_set_count": 147,
+            "end": "2014-07-01",
+            "level": 1,
+            "present_set_count": 16,
+            "selection_share": 0.10884354,
+            "start": "2014-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 39,
+            "end": "2014-11-01",
+            "level": 1,
+            "present_set_count": 2,
+            "selection_share": 0.05128205,
+            "start": "2014-11-01"
+          },
+          {
+            "bin_count": 3,
+            "eligible_set_count": 22,
+            "end": "2015-03-01",
+            "level": 1,
+            "present_set_count": 2,
+            "selection_share": 0.09090909,
+            "start": "2015-01-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 111,
+            "end": "2015-06-01",
+            "level": 1,
+            "present_set_count": 5,
+            "selection_share": 0.04504505,
+            "start": "2015-05-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 144,
+            "end": "2014-06-01",
+            "level": 2,
+            "present_set_count": 16,
+            "selection_share": 0.11111111,
+            "start": "2014-05-01"
+          }
+        ],
+        "max_level": 2,
+        "path_gain": 7.52906958,
+        "present_set_count": 28,
+        "token_sha256": "a3c2e48921ebbf6b8b78d443dd94f7eae7d96fc4cd5121d7c41210ecebf76a06"
+      },
+      {
+        "baseline_selection_share": 0.0188216,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 2,
+            "eligible_set_count": 80,
+            "end": "2012-06-01",
+            "level": 1,
+            "present_set_count": 11,
+            "selection_share": 0.1375,
+            "start": "2012-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 3,
+            "end": "2012-11-01",
+            "level": 1,
+            "present_set_count": 0,
+            "selection_share": 0.0,
+            "start": "2012-11-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 87,
+            "end": "2013-06-01",
+            "level": 1,
+            "present_set_count": 6,
+            "selection_share": 0.06896552,
+            "start": "2013-05-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 80,
+            "end": "2012-06-01",
+            "level": 2,
+            "present_set_count": 11,
+            "selection_share": 0.1375,
+            "start": "2012-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 3,
+            "end": "2012-11-01",
+            "level": 2,
+            "present_set_count": 0,
+            "selection_share": 0.0,
+            "start": "2012-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 22,
+            "end": "2013-05-01",
+            "level": 2,
+            "present_set_count": 3,
+            "selection_share": 0.13636364,
+            "start": "2013-05-01"
+          }
+        ],
+        "max_level": 2,
+        "path_gain": 7.27976583,
+        "present_set_count": 23,
+        "token_sha256": "558679c3637da720e40418c129d777d3b245b95599dcae9dd735e4778637a805"
+      },
+      {
+        "baseline_selection_share": 0.01554828,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 2,
+            "eligible_set_count": 80,
+            "end": "2012-06-01",
+            "level": 1,
+            "present_set_count": 12,
+            "selection_share": 0.15,
+            "start": "2012-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 3,
+            "end": "2012-11-01",
+            "level": 1,
+            "present_set_count": 0,
+            "selection_share": 0.0,
+            "start": "2012-11-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 87,
+            "end": "2013-06-01",
+            "level": 1,
+            "present_set_count": 4,
+            "selection_share": 0.04597701,
+            "start": "2013-05-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 80,
+            "end": "2012-06-01",
+            "level": 2,
+            "present_set_count": 12,
+            "selection_share": 0.15,
+            "start": "2012-05-01"
+          }
+        ],
+        "max_level": 2,
+        "path_gain": 7.12490896,
+        "present_set_count": 19,
+        "token_sha256": "d4b4d5463ac16015f56833047f34185af68dcdf272a312e702b58704892ffa32"
+      },
+      {
+        "baseline_selection_share": 0.01963993,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 11,
+            "eligible_set_count": 250,
+            "end": "2018-07-01",
+            "level": 1,
+            "present_set_count": 20,
+            "selection_share": 0.08,
+            "start": "2017-09-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 50,
+            "end": "2018-09-01",
+            "level": 1,
+            "present_set_count": 2,
+            "selection_share": 0.04,
+            "start": "2018-09-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 39,
+            "end": "2018-11-01",
+            "level": 1,
+            "present_set_count": 2,
+            "selection_share": 0.05128205,
+            "start": "2018-11-01"
+          },
+          {
+            "bin_count": 6,
+            "eligible_set_count": 105,
+            "end": "2018-02-01",
+            "level": 2,
+            "present_set_count": 12,
+            "selection_share": 0.11428571,
+            "start": "2017-09-01"
+          }
+        ],
+        "max_level": 2,
+        "path_gain": 7.08308553,
+        "present_set_count": 24,
+        "token_sha256": "254681cc4f944708adce243e870ca65890cdc689673d4d2f2bd4d0f1b6d67aa9"
+      },
+      {
+        "baseline_selection_share": 0.02700491,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 3,
+            "eligible_set_count": 88,
+            "end": "2013-07-01",
+            "level": 1,
+            "present_set_count": 13,
+            "selection_share": 0.14772727,
+            "start": "2013-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 25,
+            "end": "2013-11-01",
+            "level": 1,
+            "present_set_count": 2,
+            "selection_share": 0.08,
+            "start": "2013-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 1,
+            "end": "2014-01-01",
+            "level": 1,
+            "present_set_count": 0,
+            "selection_share": 0.0,
+            "start": "2014-01-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 13,
+            "end": "2014-03-01",
+            "level": 1,
+            "present_set_count": 2,
+            "selection_share": 0.15384615,
+            "start": "2014-03-01"
+          },
+          {
+            "bin_count": 2,
+            "eligible_set_count": 66,
+            "end": "2013-07-01",
+            "level": 2,
+            "present_set_count": 12,
+            "selection_share": 0.18181818,
+            "start": "2013-06-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 25,
+            "end": "2013-11-01",
+            "level": 2,
+            "present_set_count": 2,
+            "selection_share": 0.08,
+            "start": "2013-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 1,
+            "end": "2014-01-01",
+            "level": 2,
+            "present_set_count": 0,
+            "selection_share": 0.0,
+            "start": "2014-01-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 13,
+            "end": "2014-03-01",
+            "level": 2,
+            "present_set_count": 2,
+            "selection_share": 0.15384615,
+            "start": "2014-03-01"
+          }
+        ],
+        "max_level": 2,
+        "path_gain": 6.93224017,
+        "present_set_count": 33,
+        "token_sha256": "cc7265db6b577b86c01626ca3a26d0d9b140e4763bcefffffbab0dc64c1a7a60"
+      },
+      {
+        "baseline_selection_share": 0.01391162,
+        "eligible_set_count": 1222,
+        "intervals": [
+          {
+            "bin_count": 3,
+            "eligible_set_count": 88,
+            "end": "2013-07-01",
+            "level": 1,
+            "present_set_count": 12,
+            "selection_share": 0.13636364,
+            "start": "2013-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 25,
+            "end": "2013-11-01",
+            "level": 1,
+            "present_set_count": 1,
+            "selection_share": 0.04,
+            "start": "2013-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 1,
+            "end": "2014-01-01",
+            "level": 1,
+            "present_set_count": 0,
+            "selection_share": 0.0,
+            "start": "2014-01-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 13,
+            "end": "2014-03-01",
+            "level": 1,
+            "present_set_count": 1,
+            "selection_share": 0.07692308,
+            "start": "2014-03-01"
+          },
+          {
+            "bin_count": 3,
+            "eligible_set_count": 88,
+            "end": "2013-07-01",
+            "level": 2,
+            "present_set_count": 12,
+            "selection_share": 0.13636364,
+            "start": "2013-05-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 25,
+            "end": "2013-11-01",
+            "level": 2,
+            "present_set_count": 1,
+            "selection_share": 0.04,
+            "start": "2013-11-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 1,
+            "end": "2014-01-01",
+            "level": 2,
+            "present_set_count": 0,
+            "selection_share": 0.0,
+            "start": "2014-01-01"
+          },
+          {
+            "bin_count": 1,
+            "eligible_set_count": 13,
+            "end": "2014-03-01",
+            "level": 2,
+            "present_set_count": 1,
+            "selection_share": 0.07692308,
+            "start": "2014-03-01"
+          }
+        ],
+        "max_level": 2,
+        "path_gain": 6.90806601,
+        "present_set_count": 17,
+        "token_sha256": "886d6e47fcf598e32ef0dd6e2485bc2b16f72de3cbefe5622214a3ed28bede1e"
+      }
+    ],
+    "candidate_token_count": 19282,
+    "dated_set_count": 1222,
+    "gamma": 1.0,
+    "invalid_date_count": 0,
+    "max_results": 25,
+    "method": "kleinberg_binned_set_presence",
+    "model_note": "Date-binned Kleinberg-style binomial dynamic program; this is not the original continuous stream model.",
+    "returned_burst_token_count": 25,
+    "set_presence": true,
+    "state_growth": 2.0,
+    "undated_set_count": 0
+  },
+  "schema": "jukebox-lab-receipt/v1",
+  "status": "SUCCESS",
+  "tick": {
+    "id": "fc6d780a8bf4254b",
+    "reads": [
+      {
+        "material": "px.corpus",
+        "path": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/materials/px.corpus.json",
+        "sha256": "0cb44013ce90bb1b16c473c72ad51357eef440c46f4f4bdcdb2210df5e87ba7b"
+      },
+      {
+        "material": "px.args.kleinberg-binned",
+        "path": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/materials/px.args.kleinberg-binned.json",
+        "sha256": "2b7a2406f3214232fdfbdeee231979e58dc357dc1a58c4df5dd3e1f190cb760c"
+      },
+      {
+        "material": "fn.kleinberg-binned",
+        "path": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/materials/fn.kleinberg-binned.json",
+        "sha256": "470ab2dc5d17a91ee2ac97fa1084314696fd0a0b2b8a456999a6f3ac0e691d92"
+      }
+    ],
+    "writes": [
+      {
+        "material": "px.results.kleinberg-binned",
+        "path": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/materials/px.results.kleinberg-binned.json",
+        "sha256": "5a740261ff9bddc30eaa4ca584d6ce245039d0952ec07a9859e1499d6fc44596"
+      }
+    ]
+  },
+  "tick_id": "fc6d780a8bf4254b",
+  "timing_ms": 3239
+}

@@ -1,0 +1,50 @@
+{
+  "corpus": {
+    "content_duplicate_count": 15,
+    "dated_set_count": 1222,
+    "empty_content_duplicate_count": 59,
+    "empty_csv_member_count": 60,
+    "festival_count": 6,
+    "nominal_csv_member_count": 1297,
+    "ordered_occurrence_count": 43941,
+    "selector_count": 537,
+    "set_count": 1222,
+    "source_scope": "BigData415/Final/fests/**/*.csv; content-deduplicated"
+  },
+  "input_sha256": "2d8e1aedf53bd261e3b31eb0599c0f9f41d373a7d7e6b8a02033f5112ed82787",
+  "local_token_resolver": "inspect/token-resolution.local.json",
+  "methods": [
+    {
+      "method": "squish-original",
+      "receipt": "receipts/squish-original.json",
+      "status": "SUCCESS"
+    },
+    {
+      "method": "exceptional-transition-mining-varying-order",
+      "receipt": "receipts/exceptional-transition-mining-varying-order.json",
+      "status": "SUCCESS"
+    },
+    {
+      "method": "skopus-original",
+      "receipt": "receipts/skopus-original.json",
+      "status": "SUCCESS"
+    },
+    {
+      "method": "closed-sequential-spmf",
+      "receipt": "receipts/closed-sequential-spmf.json",
+      "status": "SUCCESS"
+    },
+    {
+      "method": "kleinberg-binned",
+      "receipt": "receipts/kleinberg-binned.json",
+      "status": "SUCCESS"
+    },
+    {
+      "method": "subdue-original",
+      "receipt": "receipts/subdue-original.json",
+      "status": "TIMED_OUT"
+    }
+  ],
+  "schema": "jukebox-lab-run/v1",
+  "tick_id": "fc6d780a8bf4254b"
+}

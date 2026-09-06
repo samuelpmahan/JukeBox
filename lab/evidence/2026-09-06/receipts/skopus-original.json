@@ -1,0 +1,170 @@
+{
+  "algorithm_identity": "upstream:SPMF/SKOPUS@ffda99181e8ffa71a51a41792c568931f8573d19",
+  "args": {
+    "max_patterns": 25,
+    "timeout_seconds": 90,
+    "workdir": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/work/skopus-original"
+  },
+  "artifacts": [
+    "patterns.local.json"
+  ],
+  "error": null,
+  "input_sha256": "2d8e1aedf53bd261e3b31eb0599c0f9f41d373a7d7e6b8a02033f5112ed82787",
+  "method": "skopus-original",
+  "outputs": {
+    "build": {
+      "bridge_sha256": "d19923e0d55deef4c1013855e94cee4dc85df62cdfe0dbe9a60e4805409f1caa",
+      "class_files": 54,
+      "classes_sha256": "88669ec45bcce572de37e12c9b0651d10198bccda12657c644b1295a6ca2c403",
+      "license": "GPL-3.0 (upstream retained separately)",
+      "source": "https://github.com/philfv9/spmf-software",
+      "upstream_commit": "ffda99181e8ffa71a51a41792c568931f8573d19"
+    },
+    "effective_parameters": [
+      "10",
+      "3"
+    ],
+    "excluded_vocabulary_size": 18711,
+    "gap_semantics": "unbounded ordered subsequence; singleton itemsets",
+    "implementation": "upstream SPMF SKOPUS",
+    "input_encoding_sha256": "21e90bc90ffb5744ef99df24829d251f60999349140e89c2a7bc89feffa0166e",
+    "item_min_sets": 10,
+    "occurrence_support_checked": true,
+    "output_sha256": "5495539e3a29f5eb2c8785f92fa18303c5452cfe06020b3972411ebd1b6dfa57",
+    "pattern_count": 10,
+    "patterns": [
+      {
+        "length": 3,
+        "leverage": 12.0,
+        "pattern_ids": [
+          "a58010c5688e57b7",
+          "045b5073ff1d99ec",
+          "0e5543fb8e5b41b5"
+        ],
+        "support_sets": 18
+      },
+      {
+        "length": 2,
+        "leverage": 9.0,
+        "pattern_ids": [
+          "a58010c5688e57b7",
+          "0e5543fb8e5b41b5"
+        ],
+        "support_sets": 18
+      },
+      {
+        "length": 2,
+        "leverage": 9.0,
+        "pattern_ids": [
+          "045b5073ff1d99ec",
+          "0e5543fb8e5b41b5"
+        ],
+        "support_sets": 18
+      },
+      {
+        "length": 2,
+        "leverage": 9.0,
+        "pattern_ids": [
+          "a58010c5688e57b7",
+          "045b5073ff1d99ec"
+        ],
+        "support_sets": 18
+      },
+      {
+        "length": 3,
+        "leverage": 7.333333333333334,
+        "pattern_ids": [
+          "f00c67413450822e",
+          "7ca40101d1cbad5e",
+          "fd984d82d119dfed"
+        ],
+        "support_sets": 11
+      },
+      {
+        "length": 3,
+        "leverage": 7.333333333333334,
+        "pattern_ids": [
+          "f00c67413450822e",
+          "7ca40101d1cbad5e",
+          "9762d68ed6265c59"
+        ],
+        "support_sets": 11
+      },
+      {
+        "length": 3,
+        "leverage": 7.333333333333334,
+        "pattern_ids": [
+          "7ca40101d1cbad5e",
+          "9762d68ed6265c59",
+          "fd984d82d119dfed"
+        ],
+        "support_sets": 11
+      },
+      {
+        "length": 3,
+        "leverage": 7.333333333333334,
+        "pattern_ids": [
+          "f00c67413450822e",
+          "9762d68ed6265c59",
+          "fd984d82d119dfed"
+        ],
+        "support_sets": 11
+      },
+      {
+        "length": 3,
+        "leverage": 7.0,
+        "pattern_ids": [
+          "f00c67413450822e",
+          "fd984d82d119dfed",
+          "90fddb36715c5702"
+        ],
+        "support_sets": 11
+      },
+      {
+        "length": 3,
+        "leverage": 7.0,
+        "pattern_ids": [
+          "9762d68ed6265c59",
+          "fd984d82d119dfed",
+          "90fddb36715c5702"
+        ],
+        "support_sets": 11
+      }
+    ],
+    "preview_limit": 50,
+    "set_count": 1222,
+    "upstream_commit": "ffda99181e8ffa71a51a41792c568931f8573d19",
+    "vocabulary_size": 571
+  },
+  "schema": "jukebox-lab-receipt/v1",
+  "status": "SUCCESS",
+  "tick": {
+    "id": "fc6d780a8bf4254b",
+    "reads": [
+      {
+        "material": "px.corpus",
+        "path": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/materials/px.corpus.json",
+        "sha256": "0cb44013ce90bb1b16c473c72ad51357eef440c46f4f4bdcdb2210df5e87ba7b"
+      },
+      {
+        "material": "px.args.skopus-original",
+        "path": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/materials/px.args.skopus-original.json",
+        "sha256": "1560e96799d612200161fca5071d9ec43906a77abf3ccb4c33c26e892ffa5c65"
+      },
+      {
+        "material": "fn.skopus-original",
+        "path": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/materials/fn.skopus-original.json",
+        "sha256": "79c4f04baa90a19c73db45ceadcdc6a38525b2ce2bf577aceea41b7bfedc6ade"
+      }
+    ],
+    "writes": [
+      {
+        "material": "px.results.skopus-original",
+        "path": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/materials/px.results.skopus-original.json",
+        "sha256": "11937560e05f8815d7c2ca152c09291c642d302f6acdb1b56e650832e8208dff"
+      }
+    ]
+  },
+  "tick_id": "fc6d780a8bf4254b",
+  "timing_ms": 647
+}

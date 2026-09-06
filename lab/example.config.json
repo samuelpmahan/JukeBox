@@ -1,0 +1,10 @@
+{
+  "all": {"timeout_seconds": 90},
+  "methods": {
+    "skopus-original": {"item_min_sets": 10, "top_k": 10, "max_length": 3},
+    "closed-sequential-spmf": {"min_support": 0.01},
+    "subdue-original": {"beam": 4, "limit": 200, "maxsize": 4, "numbest": 3},
+    "exceptional-transition-mining-varying-order": {"max_order": 3},
+    "kleinberg-binned": {"binning": "month", "s": 2, "gamma": 1}
+  }
+}

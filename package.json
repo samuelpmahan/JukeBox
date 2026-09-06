@@ -6,6 +6,8 @@
   "scripts": {
     "test": "node --experimental-strip-types --test src/*.test.ts",
     "jukebox": "node --experimental-strip-types src/cli.ts",
-    "build:primitives": "node --experimental-strip-types scratch/build-primitives.ts"
+    "build:primitives": "node --experimental-strip-types scratch/build-primitives.ts",
+    "lab": "./lab/run",
+    "test:lab": "python3 -m unittest discover -s tests -v && python3 -m unittest discover -s lab/methods -p 'test_*.py' -v"
   }
 }

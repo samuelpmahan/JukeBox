@@ -1,0 +1,150 @@
+#!/usr/bin/env python3
+"""Run JukeBox LAB adapters against a local playlist ZIP and write compact receipts."""
+from __future__ import annotations
+
+import argparse
+from datetime import datetime, timezone
+import hashlib
+import importlib
+import json
+from pathlib import Path
+import sys
+from typing import Any
+
+# Support direct execution as `./lab/run` from the repository root.
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from lab.core import (MethodAdapter, MethodRegistry, MethodResult, RunStatus,
+                      compact_corpus_summary, read_zip_corpus, run_adapter, write_json)
+from lab.materials import MaterialStore, source_binding
+from lab.resolver import write_local_token_resolver
+
+EXPECTED_METHODS = (
+    "squish-original",
+    "exceptional-transition-mining-varying-order",
+    "skopus-original",
+    "closed-sequential-spmf",
+    "kleinberg-binned",
+    "subdue-original",
+)
+PROVIDER_MODULES = {
+    "lab.providers.squish_subdue": ("squish-original", "subdue-original"),
+    "lab.providers.spmf": ("skopus-original", "closed-sequential-spmf"),
+    "lab.methods.emm": ("exceptional-transition-mining-varying-order",),
+    "lab.methods.kleinberg": ("kleinberg-binned",),
+}
+
+def _unavailable(method_id: str, *, failed: bool = False, error: str | None = None) -> MethodAdapter:
+    status = RunStatus.FAILED if failed else RunStatus.UNSUPPORTED
+    identity = "broken LAB adapter; no algorithm was substituted" if failed else "unavailable adapter; no algorithm was substituted"
+    return MethodAdapter(method_id, identity,
+        lambda _corpus, _config: MethodResult(status, error=error or "LAB adapter was not available in this checkout", algorithm_identity=identity),
+        "Explicit adapter-load outcome; no fallback algorithm is used.")
+
+def build_registry() -> MethodRegistry:
+    registry = MethodRegistry()
+    failures: dict[str, tuple[bool, str]] = {}
+    for module_name, owned_ids in PROVIDER_MODULES.items():
+        module_file = ROOT.joinpath(*module_name.split(".")).with_suffix(".py")
+        try:
+            module = importlib.import_module(module_name)
+            register = getattr(module, "register", None)
+            if register is None:
+                raise AttributeError("module has no register(registry) hook")
+            register(registry)
+        except Exception as exc:
+            detail = f"could not load {module_name}: {type(exc).__name__}: {exc}"
+            print(f"LAB: {detail}", file=sys.stderr)
+            for method_id in owned_ids:
+                failures[method_id] = (module_file.exists(), detail)
+    for method_id in EXPECTED_METHODS:
+        if method_id not in registry.ids():
+            failed, detail = failures.get(method_id, (False, "LAB adapter was not available in this checkout"))
+            registry.register(_unavailable(method_id, failed=failed, error=detail))
+    return registry
+
+def _load_config(path: str | None) -> dict[str, Any]:
+    if path is None:
+        return {"all": {}, "methods": {}}
+    try:
+        decoded = json.loads(Path(path).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SystemExit(f"invalid --config JSON: {exc}") from exc
+    if not isinstance(decoded, dict):
+        raise SystemExit("--config JSON must be an object")
+    all_config = decoded.get("all", {})
+    methods = decoded.get("methods", {})
+    if not isinstance(all_config, dict) or not isinstance(methods, dict) or any(not isinstance(value, dict) for value in methods.values()):
+        raise SystemExit("--config expects {\"all\": {...}, \"methods\": {\"method-id\": {...}}}")
+    return {"all": all_config, "methods": methods}
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--corpus", required=True, help="local playlist ZIP (never copied into the repository)")
+    parser.add_argument("--output", required=True, help="ignored local LAB output directory")
+    parser.add_argument("--method", action="append", default=[], help="method ID, repeatable; default is all")
+    parser.add_argument("--timeout-seconds", type=int, default=90, help="per-provider ceiling (1–300, default 90)")
+    parser.add_argument("--max-patterns", type=int, default=25, help="compact result limit for compatible methods")
+    parser.add_argument("--config", help="JSON knobs: {\"all\": {...}, \"methods\": {\"method-id\": {...}}}")
+    return parser.parse_args()
+
+def main() -> int:
+    options = parse_args()
+    if not 1 <= options.timeout_seconds <= 300:
+        raise SystemExit("--timeout-seconds must be between 1 and 300")
+    registry = build_registry()
+    supplied_config = _load_config(options.config)
+    wanted = options.method or ["all"]
+    if "all" in wanted:
+        selected = list(EXPECTED_METHODS)
+    else:
+        unknown = sorted(set(wanted) - set(registry.ids()))
+        if unknown:
+            raise SystemExit(f"unknown LAB method(s): {', '.join(unknown)}")
+        selected = list(dict.fromkeys(wanted))
+    output = Path(options.output).resolve()
+    receipts_dir = output / "receipts"
+    work_root = output / "work"
+    receipts_dir.mkdir(parents=True, exist_ok=True)
+    work_root.mkdir(parents=True, exist_ok=True)
+    materials = MaterialStore(output / "materials")
+    corpus = read_zip_corpus(options.corpus)
+    parser_source = ROOT / "lab" / "core.py"
+    px_corpus = materials.put("px.corpus", {
+        "schema": "jukebox-lab-corpus-binding/v1", "local_input_path": str(corpus.input_path),
+        "input_sha256": corpus.input_sha256,
+        "parser_module": "lab.core.read_zip_corpus", "parser_source_sha256": hashlib.sha256(parser_source.read_bytes()).hexdigest(),
+        "set_record_schema": ["id", "selector", "date", "festival", "tracks", "source_member"],
+        **compact_corpus_summary(corpus),
+    })
+    resolver_path = write_local_token_resolver(corpus, output / "inspect" / "token-resolution.local.json")
+    tick_seed = f"{datetime.now(timezone.utc).isoformat()}:{corpus.input_sha256}".encode()
+    tick_id = hashlib.sha256(tick_seed).hexdigest()[:16]
+    common: dict[str, Any] = {"timeout_seconds": options.timeout_seconds, "max_patterns": options.max_patterns}
+    receipts = []
+    for method_id in selected:
+        adapter = registry.get(method_id)
+        config = {**common, **supplied_config["all"], **supplied_config["methods"].get(method_id, {}),
+                  "workdir": str((work_root / method_id).resolve())}
+        Path(config["workdir"]).mkdir(parents=True, exist_ok=True)
+        px_args = materials.put(f"px.args.{method_id}", config)
+        fn_method = materials.put(f"fn.{method_id}", {"method": method_id, "algorithm_identity": adapter.algorithm_identity,
+                                                        "description": adapter.description, **source_binding(adapter.run)})
+        receipt = run_adapter(tick_id=tick_id, adapter=adapter, corpus=corpus, args=config)
+        px_results = materials.put(f"px.results.{method_id}", receipt["outputs"])
+        receipt["tick"] = {"id": tick_id, "reads": [px_corpus, px_args, fn_method], "writes": [px_results]}
+        write_json(receipts_dir / f"{method_id}.json", receipt)
+        receipts.append(receipt)
+    manifest = {"schema": "jukebox-lab-run/v1", "tick_id": tick_id,
+                "input_sha256": corpus.input_sha256, "corpus": compact_corpus_summary(corpus),
+                "local_token_resolver": "inspect/token-resolution.local.json",
+                "methods": [{"method": item["method"], "status": item["status"],
+                             "receipt": f"receipts/{item['method']}.json"} for item in receipts]}
+    write_json(output / "run.json", manifest)
+    print(json.dumps(manifest, sort_keys=True))
+    return 0 if all(item["status"] not in {RunStatus.FAILED.value, RunStatus.TIMED_OUT.value} for item in receipts) else 2
+
+if __name__ == "__main__":
+    raise SystemExit(main())

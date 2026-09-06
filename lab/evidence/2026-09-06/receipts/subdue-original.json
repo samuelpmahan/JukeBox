@@ -1,0 +1,63 @@
+{
+  "algorithm_identity": "SUBDUE v1.4 Python (Larry Holder / Washington State University; holderlb/Subdue@f33567dea2fa7e9595c27b807f16b120a7bdebb2)",
+  "args": {
+    "max_patterns": 25,
+    "timeout_seconds": 90,
+    "workdir": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/work/subdue-original"
+  },
+  "artifacts": [
+    "subdue/input.json",
+    "subdue/output.txt"
+  ],
+  "error": "SUBDUE execution timed out",
+  "input_sha256": "2d8e1aedf53bd261e3b31eb0599c0f9f41d373a7d7e6b8a02033f5112ed82787",
+  "method": "subdue-original",
+  "outputs": {
+    "edge_count": 42719,
+    "effective_parameters": {
+      "beam": 4,
+      "limit": 200,
+      "maxsize": 4,
+      "minsize": 2,
+      "numbest": 3,
+      "overlap": "none",
+      "temporal": false
+    },
+    "graph_semantics": "set-local occurrence vertices with exact hashed track labels; directed follows edges stay within a set",
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reported_pattern_count": 0,
+    "set_count": 1222,
+    "vertex_count": 43941
+  },
+  "schema": "jukebox-lab-receipt/v1",
+  "status": "TIMED_OUT",
+  "tick": {
+    "id": "fc6d780a8bf4254b",
+    "reads": [
+      {
+        "material": "px.corpus",
+        "path": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/materials/px.corpus.json",
+        "sha256": "0cb44013ce90bb1b16c473c72ad51357eef440c46f4f4bdcdb2210df5e87ba7b"
+      },
+      {
+        "material": "px.args.subdue-original",
+        "path": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/materials/px.args.subdue-original.json",
+        "sha256": "957b438e02d885006fea16a74567bc043ac4a4bd8ae4971da1495af5105f6836"
+      },
+      {
+        "material": "fn.subdue-original",
+        "path": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/materials/fn.subdue-original.json",
+        "sha256": "105c0f6193265228e26a52d9b162d053201fe4b0be4948e622d11908cea73dcf"
+      }
+    ],
+    "writes": [
+      {
+        "material": "px.results.subdue-original",
+        "path": "/workspace/scratch/84e23c136f96/JukeBox/lab/.runs/final/materials/px.results.subdue-original.json",
+        "sha256": "19c4b3f5e1e9ae8a8278a8b9a5bd799acc57e68520a12c59bacb2e7ae8ee05be"
+      }
+    ]
+  },
+  "tick_id": "fc6d780a8bf4254b",
+  "timing_ms": 90395
+}
