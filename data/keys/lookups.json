@@ -1173,6 +1173,15 @@
    "note": "no Follow Zomboy Remix page in search results",
    "by": "haiku-search"
   },
+  "buku|align||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 159,
+   "source": "https://www.beatport.com/track/align/22924982",
+   "sourceType": "beatport",
+   "note": "Beatport search in Chrome; recent release id",
+   "by": "haiku-mixgraph"
+  },
   "buku|cake dough cheddar||": {
    "key": "A Minor",
    "camelot": "8A",
@@ -1182,6 +1191,24 @@
    "note": "Camelot 8A",
    "by": "haiku-mixgraph"
   },
+  "buku|fooled||": {
+   "key": "Ab Major",
+   "camelot": "4B",
+   "bpm": 70,
+   "source": "https://www.beatport.com/track/fooled/4526914",
+   "sourceType": "beatport",
+   "note": "Beatport search in Chrome",
+   "by": "haiku-mixgraph"
+  },
+  "buku|front to back||": {
+   "key": "Gb Minor",
+   "camelot": "11A",
+   "bpm": 85,
+   "source": "https://www.beatport.com/track/front-to-back/8590163",
+   "sourceType": "beatport",
+   "note": "Beatport search in Chrome",
+   "by": "haiku-mixgraph"
+  },
   "buku|heartbeat||": {
    "key": "F Major",
    "camelot": "7B",
@@ -1189,6 +1216,15 @@
    "source": "https://www.mixgraph.io/tracks/buku-heartbeat",
    "sourceType": "mixgraph",
    "note": "Camelot 7B",
+   "by": "haiku-mixgraph"
+  },
+  "buku|we go||": {
+   "key": "Gb Major",
+   "camelot": "2B",
+   "bpm": 160,
+   "source": "https://www.beatport.com/track/we-go/22933486",
+   "sourceType": "beatport",
+   "note": "Beatport search in Chrome; recent release id",
    "by": "haiku-mixgraph"
   },
   "calcium+k-nine|damn son||": {
@@ -4521,6 +4557,15 @@
    "source": null,
    "sourceType": null,
    "note": "not on mixgraph (track page and artist top 25)",
+   "by": "haiku-mixgraph"
+  },
+  "monxx|scary riddim & nice sprites||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 142,
+   "source": "https://www.beatport.com/track/scary-riddim-nice-sprites/19632581",
+   "sourceType": "beatport",
+   "note": "Beatport search in Chrome; released after the 2018 set, played as unreleased",
    "by": "haiku-mixgraph"
   },
   "mt. analogue+toadface+yheti|the feels||": {
