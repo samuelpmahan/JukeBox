@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {toCamelot, keyMove, isLegalMove, fullTimeBpm, tempoGap, scoreSet, CAMELOT_NAMES} from './camelot.js';
+import {toCamelot, keyMove, isLegalMove, fullTimeBpm, tempoGap, scoreSet, CAMELOT_NAMES, keyInk} from './camelot.js';
 
 test('key labels from Beatport, Tunebat and songbpm map to Camelot codes', () => {
   const cases: [string, string | null][] = [
@@ -56,4 +56,11 @@ test("Squnto's Lost Lands 2018 set reproduces the published score", () => {
   assert.equal(s.scored, 51);
   assert.equal(s.legal, 13);
   assert.equal(s.stays, 10);
+});
+
+test('every key has an ink: 7A Phosphor, 7B its paper mix, unknown none', () => {
+  assert.equal(keyInk('7A'), '#43f28b');
+  assert.equal(keyInk('7B'), '#8ce2a6');
+  assert.equal(keyInk('13A'), null);
+  assert.equal(keyInk(null), null);
 });

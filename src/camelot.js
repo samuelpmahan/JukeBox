@@ -123,3 +123,16 @@ export function scoreSet(codes, pairs, opts = {}) {
     luck: scored.length && iterations ? atLeast / iterations : null,
   };
 }
+
+/** One ink per Camelot key (Samtraxx Reloaded design system): hours run around the colour circle; A = full ink, B = half mixed with paper. */
+export const KEY_INKS = {'1A': '#ff5a36', '1B': '#ea967c', '2A': '#ff8030', '2B': '#eaa878', '3A': '#f2a33a', '3B': '#e3ba7e', '4A': '#f4d35e', '4B': '#e4d290', '5A': '#c6d82b', '5B': '#cdd476', '6A': '#9dba4a', '6B': '#b8c686', '7A': '#43f28b', '7B': '#8ce2a6', '8A': '#8ad4b6', '8B': '#afd2bc', '9A': '#7591a4', '9B': '#a4b1b2', '10A': '#7c93d1', '10B': '#a8b2c9', '11A': '#6e3a6e', '11B': '#a18698', '12A': '#c2307a', '12B': '#cb809e'};
+
+/**
+ * The ink for a Camelot code, or null when the code is unknown.
+ * @param {string | null | undefined} code
+ * @returns {string | null}
+ */
+export function keyInk(code) { return (code && KEY_INKS[code]) || null; }
+
+/** Lettering on a key ink: dark everywhere except the two dark inks. @param {string} code */
+export function keyInkText(code) { return code === '11A' || code === '12A' ? '#f5f1e0' : '#241d12'; }
