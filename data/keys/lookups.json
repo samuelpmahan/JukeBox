@@ -208,6 +208,15 @@
    "note": "no ATLiens Witch Doctor G-REX remix page found; Witchdoctor by 1991 is different",
    "by": "haiku-search"
   },
+  "aweminus+ubur|knuts||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
   "badklaat|campers||": {
    "key": "E Major",
    "camelot": "12B",
@@ -306,6 +315,15 @@
    "sourceType": "beatport",
    "note": "Original Mix, Never Say Die Records, 2016-01-22. Not the JDG/KSHMR 'Kolkata'. songbpm's 113 BPM with no key was not used.",
    "by": "opus-search"
+  },
+  "bare+terravita|war party||": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 94,
+   "source": "https://www.mixgraph.io/tracks/terravita-war-party",
+   "sourceType": "mixgraph",
+   "note": "artist list, 7B",
+   "by": "haiku-mixgraph"
   },
   "barely alive+modestep+virtual riot|by my side||": {
    "key": null,
@@ -478,6 +496,15 @@
    "note": "not on mixgraph",
    "by": "haiku-mixgraph"
   },
+  "bear grillz|drop that||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/bear-grillz-drop-that",
+   "sourceType": "mixgraph",
+   "note": "Camelot 4A",
+   "by": "haiku-mixgraph"
+  },
   "bear grillz|every day||": {
    "key": "F Minor",
    "camelot": "4A",
@@ -513,6 +540,15 @@
    "sourceType": null,
    "note": "no page for Too Loud by Bear Grillz in search results",
    "by": "haiku-search"
+  },
+  "bear grillz|wicked||": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/bear-grillz-wicked-feat-sullivan-king",
+   "sourceType": "mixgraph",
+   "note": "Camelot 7B",
+   "by": "haiku-mixgraph"
   },
   "black tiger sex machine+kai wachi|rebels||": {
    "key": null,
@@ -1137,6 +1173,24 @@
    "note": "no Follow Zomboy Remix page in search results",
    "by": "haiku-search"
   },
+  "buku|cake dough cheddar||": {
+   "key": "A Minor",
+   "camelot": "8A",
+   "bpm": 81,
+   "source": "https://www.mixgraph.io/tracks/buku-cake-dough-cheddar",
+   "sourceType": "mixgraph",
+   "note": "Camelot 8A",
+   "by": "haiku-mixgraph"
+  },
+  "buku|heartbeat||": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 85,
+   "source": "https://www.mixgraph.io/tracks/buku-heartbeat",
+   "sourceType": "mixgraph",
+   "note": "Camelot 7B",
+   "by": "haiku-mixgraph"
+  },
   "calcium+k-nine|damn son||": {
    "key": null,
    "camelot": null,
@@ -1155,14 +1209,59 @@
    "note": "search showed no FWYS page only unrelated Calcium-adjacent titles",
    "by": "haiku-search"
   },
-  "carbin|twenty-2-life||": {
+  "carbin|all night||": {
    "key": null,
    "camelot": null,
    "bpm": null,
    "source": null,
    "sourceType": null,
-   "note": "no Twenty-2-Life page in results; only Carbin artist page and unrelated tracks",
-   "by": "haiku-search"
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "carbin|bad habit||": {
+   "key": "C Minor",
+   "camelot": "5A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/carbin-bad-habit",
+   "sourceType": "mixgraph",
+   "note": "artist list, 5A",
+   "by": "haiku-mixgraph"
+  },
+  "carbin|culprate|VIP|carbin": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "carbin|not your id||": {
+   "key": "A♭ Minor",
+   "camelot": "1A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/carbin-not-your-id",
+   "sourceType": "mixgraph",
+   "note": "artist list, 1A",
+   "by": "haiku-mixgraph"
+  },
+  "carbin|space invaders||": {
+   "key": "D Minor",
+   "camelot": "7A",
+   "bpm": 75,
+   "source": "https://www.mixgraph.io/tracks/carbin-space-invaders",
+   "sourceType": "mixgraph",
+   "note": "artist list, 7A",
+   "by": "haiku-mixgraph"
+  },
+  "carbin|twenty-2-life||": {
+   "key": "A Minor",
+   "camelot": "8A",
+   "bpm": 139,
+   "source": "https://www.mixgraph.io/tracks/carbin-twenty-2-life",
+   "sourceType": "mixgraph",
+   "note": "artist list, 8A",
+   "by": "haiku-mixgraph"
   },
   "carrot|wiz kid||": {
    "key": null,
@@ -1733,6 +1832,15 @@
    "note": "not found: search gave no Get Lemon track page, only Disciple discography and release pages",
    "by": "haiku-search"
   },
+  "dj snake+jauz|gassed up||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
   "doctor p+flux pavilion|fuckers||": {
    "key": null,
    "camelot": null,
@@ -2174,14 +2282,32 @@
    "note": "no Eliminate Found A Way page found; checked 404 Intro instead",
    "by": "haiku-search"
   },
+  "eliminate|snake bite vip|VIP|eliminate": {
+   "key": "E Minor",
+   "camelot": "9A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/eliminate-snake-bite-vip",
+   "sourceType": "mixgraph",
+   "note": "artist list, 9A, same page as 765",
+   "by": "haiku-mixgraph"
+  },
+  "eliminate|snake bite|VIP|eliminate": {
+   "key": "E Minor",
+   "camelot": "9A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/eliminate-snake-bite-vip",
+   "sourceType": "mixgraph",
+   "note": "artist list, 9A",
+   "by": "haiku-mixgraph"
+  },
   "eliminate|walls|REMIX|subtronics": {
-   "key": null,
-   "camelot": null,
-   "bpm": null,
-   "source": null,
-   "sourceType": null,
-   "note": "not found: search gave no Eliminate Walls Subtronics Remix page, only unrelated beatport tracks",
-   "by": "haiku-search"
+   "key": "E Major",
+   "camelot": "12B",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/eliminate-walls-subtronics-remix",
+   "sourceType": "mixgraph",
+   "note": "artist list, 12B",
+   "by": "haiku-mixgraph"
   },
   "emalkay|fabrication||": {
    "key": null,
@@ -2597,6 +2723,51 @@
    "note": "not on mixgraph",
    "by": "haiku-mixgraph"
   },
+  "feed me|bad taste||": {
+   "key": "G Minor",
+   "camelot": "6A",
+   "bpm": 140,
+   "source": "https://www.mixgraph.io/tracks/feed-me-bad-taste",
+   "sourceType": "mixgraph",
+   "note": "Camelot 6A",
+   "by": "haiku-mixgraph"
+  },
+  "feed me|high noon||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "feed me|pink lady||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "feed me|red clouds||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "feed me|starcrash||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 96,
+   "source": "https://www.mixgraph.io/tracks/feed-me-starcrash",
+   "sourceType": "mixgraph",
+   "note": "Camelot 4A",
+   "by": "haiku-mixgraph"
+  },
   "figure+phaseone|they came from within||": {
    "key": null,
    "camelot": null,
@@ -2796,13 +2967,22 @@
    "by": "haiku-search"
   },
   "funtcase+wooli|man don't want war||": {
-   "key": null,
-   "camelot": null,
-   "bpm": null,
-   "source": null,
-   "sourceType": null,
-   "note": "search showed only war titled pages none for Man Dont Want War",
-   "by": "haiku-search"
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/funtcase-man-dont-want-war-feat-clipson",
+   "sourceType": "mixgraph",
+   "note": "artist page, Camelot 4A, original mix, featured Clipson",
+   "by": "haiku-mixgraph"
+  },
+  "funtcase|scary yikes grrz||": {
+   "key": "A Minor",
+   "camelot": "8A",
+   "bpm": 73,
+   "source": "https://www.mixgraph.io/tracks/funtcase-scary-yikes-grrz",
+   "sourceType": "mixgraph",
+   "note": "artist page, Camelot 8A, original mix",
+   "by": "haiku-mixgraph"
   },
   "future|mask off||": {
    "key": "Dm",
@@ -3344,6 +3524,24 @@
    "note": "Unreleased ID. One search, no listing found.",
    "by": "opus-search"
   },
+  "illenium+said the sky+seven lions|rush over me vs. shatterpoint|MASHUP|seven lions": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "illenium+said the sky+seven lions|rush over me||": {
+   "key": "C Major",
+   "camelot": "8B",
+   "bpm": 119,
+   "source": "https://www.mixgraph.io/tracks/seven-lions-rush-over-me",
+   "sourceType": "mixgraph",
+   "note": "Seven Lions artist page list: Rush Over Me, 8B (C maj)",
+   "by": "haiku-mixgraph"
+  },
   "illenium|free fall|REMIX|kompany": {
    "key": null,
    "camelot": null,
@@ -3444,6 +3642,24 @@
    "by": "haiku-search"
   },
   "jauz+skrillex|squad out||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "jauz+sullivan king|pure evil||": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/jauz-pure-evil",
+   "sourceType": "mixgraph",
+   "note": "artist list, 7B",
+   "by": "haiku-mixgraph"
+  },
+  "jauz|alpha||": {
    "key": null,
    "camelot": null,
    "bpm": null,
@@ -3660,13 +3876,13 @@
    "by": "haiku-search"
   },
   "kayzo|this time||": {
-   "key": null,
-   "camelot": null,
-   "bpm": null,
-   "source": null,
-   "sourceType": null,
-   "note": "This Time pages checked were Dynamite and DJ Malix, not KAYZO",
-   "by": "haiku-search"
+   "key": "E Minor",
+   "camelot": "9A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/kayzo-this-time",
+   "sourceType": "mixgraph",
+   "note": "artist page, Camelot 9A, original mix",
+   "by": "haiku-mixgraph"
   },
   "kendrick lamar|humble.||": {
    "key": "A♭ maj",
@@ -3730,6 +3946,24 @@
    "sourceType": null,
    "note": "not found: Cold Hearted hits were by ALB and Breaking Me by Seven Lions, no Seven Lions and Kill The Noise page",
    "by": "haiku-search"
+  },
+  "kill the noise+seven lions|cold hearted|VIP|kill the noise+seven lions": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "kill the noise+seven lions|the blood||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
   },
   "kill the noise+skrillex|recess|REMIX|flux pavilion": {
    "key": null,
@@ -3847,6 +4081,24 @@
    "sourceType": null,
    "note": "Without A Trace VR remix: search gave no track page for this remix, only unrelated tracks and an artist profile",
    "by": "haiku-search"
+  },
+  "kompany+terravita|dungeon||": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/terravita-dungeon",
+   "sourceType": "mixgraph",
+   "note": "artist list, 7B",
+   "by": "haiku-mixgraph"
+  },
+  "kompany+terravita|dungeon|VIP|kompany+terravita": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/terravita-dungeon-vip",
+   "sourceType": "mixgraph",
+   "note": "artist list, 7B",
+   "by": "haiku-mixgraph"
   },
   "kompany+tynan|extraterrestrial||": {
    "key": null,
@@ -4118,14 +4370,50 @@
    "note": "not on mixgraph",
    "by": "haiku-mixgraph"
   },
+  "megalodon+midnight tyrannosaurus|jurassic|VIP|megalodon+midnight tyrannosaurus": {
+   "key": "A Minor",
+   "camelot": "8A",
+   "bpm": 75,
+   "source": "https://www.mixgraph.io/tracks/megalodon-jurassic-vip",
+   "sourceType": "mixgraph",
+   "note": "Camelot 8A; VIP",
+   "by": "haiku-mixgraph"
+  },
   "megalodon|half breed||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/megalodon-half-breed",
+   "sourceType": "mixgraph",
+   "note": "Camelot 4A",
+   "by": "haiku-mixgraph"
+  },
+  "megalodon|rage quit|VIP|megalodon": {
+   "key": "E Major",
+   "camelot": "12B",
+   "bpm": 148,
+   "source": "https://www.mixgraph.io/tracks/megalodon-rage-quit-vip-ft-p-money-blacks",
+   "sourceType": "mixgraph",
+   "note": "Camelot 12B; VIP feat P Money and Blacks",
+   "by": "haiku-mixgraph"
+  },
+  "megalodon|tooth & rail|REMIX|phaseone": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/megalodon-tooth-rail-phaseone-remix",
+   "sourceType": "mixgraph",
+   "note": "Camelot 7B; PhaseOne Remix",
+   "by": "haiku-mixgraph"
+  },
+  "megalodon|walking dead||": {
    "key": null,
    "camelot": null,
    "bpm": null,
    "source": null,
    "sourceType": null,
-   "note": "no Half Breed page in results; songbpm hits are other Megalodon uploads, not this track",
-   "by": "haiku-search"
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
   },
   "metapod+yheti|ominous combo||": {
    "key": null,
@@ -4316,6 +4604,15 @@
    "note": "not found, no page for this track in search results",
    "by": "haiku-search"
   },
+  "nero|guilt||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
   "nero|innocence||": {
    "key": null,
    "camelot": null,
@@ -4324,6 +4621,15 @@
    "sourceType": null,
    "note": "Nero Innocence not found; Beatport Innocence Electron result was Nero Electron, not a match",
    "by": "haiku-search"
+  },
+  "nero|won't you||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
   },
   "nghtmre+snails|only want u||": {
    "key": null,
@@ -4425,13 +4731,22 @@
    "by": "haiku-search"
   },
   "oddprophet|check||": {
-   "key": null,
+   "key": "E Flat Major",
    "camelot": null,
-   "bpm": null,
-   "source": null,
-   "sourceType": null,
-   "note": "no beatport page with Check title in search results",
-   "by": "haiku-search"
+   "bpm": 145,
+   "source": "https://www.mixgraph.io/tracks/oddprophet-check",
+   "sourceType": "mixgraph",
+   "note": "Camelot 5B",
+   "by": "haiku-mixgraph"
+  },
+  "oddprophet|listen||": {
+   "key": "D Minor",
+   "camelot": "7A",
+   "bpm": 75,
+   "source": "https://www.mixgraph.io/tracks/oddprophet-listen",
+   "sourceType": "mixgraph",
+   "note": "Camelot 7A",
+   "by": "haiku-mixgraph"
   },
   "oolacile|crypto||": {
    "key": null,
@@ -4612,6 +4927,15 @@
    "sourceType": null,
    "note": "not found: no Pitbull Put Your Fuckin Hands Up page; checked hit was Hands Up by DJ Vadim",
    "by": "haiku-search"
+  },
+  "quest!+wavedash|bstrd||": {
+   "key": "E Minor",
+   "camelot": "9A",
+   "bpm": 73,
+   "source": "https://www.mixgraph.io/tracks/wavedash-bstrd-feat-quest",
+   "sourceType": "mixgraph",
+   "note": "Camelot 9A; feat QUEST",
+   "by": "haiku-mixgraph"
   },
   "ray volpe|rave rage||": {
    "key": "Db Major",
@@ -4953,6 +5277,15 @@
    "source": "https://www.mixgraph.io/tracks/slander-i-cant-escape-feat-feli-ferraro-must-die-remix",
    "sourceType": "mixgraph",
    "note": "3B, track page",
+   "by": "haiku-mixgraph"
+  },
+  "seven lions+trivecta+wooli|island||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
    "by": "haiku-mixgraph"
   },
   "sfam+tvboo|dahshigo||": {
@@ -5549,6 +5882,15 @@
    "note": "Matched the original mix: Crowsnest Audio, released 2016-10-31. A Monxx Remix also exists; this is not it. songbpm disagrees: C#/Db major, 75.",
    "by": "opus-search"
   },
+  "subject 31+ubur|flex||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
   "subtronics+svdden death|surrender||": {
    "key": null,
    "camelot": null,
@@ -5783,14 +6125,23 @@
    "note": "Original Mix, Get Down Low EP, OWSLA (Beatport date 2015-03-04). Sources disagree: songbpm (Spotify data) says 173 BPM, F#/Gb major. 88 is half of about 175, so this is a drum and bass tempo, not 140-",
    "by": "opus-search"
   },
-  "the frim|swipe my swords||": {
+  "terravita|rage||": {
    "key": null,
    "camelot": null,
    "bpm": null,
    "source": null,
    "sourceType": null,
-   "note": "search showed no Swipe My Swords page only unrelated Frim tracks",
-   "by": "haiku-search"
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "the frim|swipe my swords||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 145,
+   "source": "https://www.mixgraph.io/tracks/the-frim-swipe-my-swords",
+   "sourceType": "mixgraph",
+   "note": "artist page, Camelot 4A, original mix",
+   "by": "haiku-mixgraph"
   },
   "the immortals|techno syndrome||": {
    "key": "G",
@@ -5963,6 +6314,15 @@
    "note": "Not found. The only Beatport 'DEATHTRAP' (track 18055201) is by FiXiT (Crowsnest Audio, 2023), not UBUR, so it was rejected. Not on Mixgraph's UBUR page. Probably unreleased or SoundCloud-only.",
    "by": "opus-search"
   },
+  "ubur|rabadon|VIP|ubur": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
   "um..+yheti|beautiful||": {
    "key": null,
    "camelot": null,
@@ -6072,13 +6432,31 @@
    "by": "haiku-search"
   },
   "wavedash|bang||": {
-   "key": null,
+   "key": "F Sharp Major",
    "camelot": null,
-   "bpm": null,
-   "source": null,
-   "sourceType": null,
-   "note": "not found: beatport hit was Phedre Bang original, artist mismatch, no WAVEDASH page in results",
-   "by": "haiku-search"
+   "bpm": 151,
+   "source": "https://www.mixgraph.io/tracks/wavedash-bang",
+   "sourceType": "mixgraph",
+   "note": "Camelot 2B",
+   "by": "haiku-mixgraph"
+  },
+  "wavedash|deathwish||": {
+   "key": "E Minor",
+   "camelot": "9A",
+   "bpm": 97,
+   "source": "https://www.mixgraph.io/tracks/wavedash-deathwish-feat-fknsyd",
+   "sourceType": "mixgraph",
+   "note": "Camelot 9A; feat fknsyd",
+   "by": "haiku-mixgraph"
+  },
+  "wavedash|the same||": {
+   "key": "B Flat Major",
+   "camelot": null,
+   "bpm": 145,
+   "source": "https://www.mixgraph.io/tracks/wavedash-the-same",
+   "sourceType": "mixgraph",
+   "note": "Camelot 6B",
+   "by": "haiku-mixgraph"
   },
   "wooli+yookie|voodoo||": {
    "key": "F Major",
@@ -6225,13 +6603,13 @@
    "by": "haiku-mixgraph"
   },
   "yogi|burial||": {
-   "key": null,
-   "camelot": null,
-   "bpm": null,
-   "source": "https://www.beatport.com/track/-/5992333",
-   "sourceType": null,
-   "note": "only Moody Good remix page found; original not matched",
-   "by": "haiku-search"
+   "key": "D Minor",
+   "camelot": "7A",
+   "bpm": 146,
+   "source": "https://www.mixgraph.io/tracks/yogi-burial-feat-pusha-t-moody-good-trollphace",
+   "sourceType": "mixgraph",
+   "note": "artist list, 7A, original",
+   "by": "haiku-mixgraph"
   },
   "yogi|burial|REMIX|skrillex+trollphace": {
    "key": null,
