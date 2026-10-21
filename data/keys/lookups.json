@@ -1,0 +1,3013 @@
+{
+ "schema": "jukebox-key-lookups/v1",
+ "lookups": {
+  "12th planet+barely alive+phaseone|send it||": {
+   "key": "C Major",
+   "camelot": "8B",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/12th-planet-send-it",
+   "sourceType": "mixgraph",
+   "note": "artist page, 8B, original mix",
+   "by": "haiku-mixgraph"
+  },
+  "12th planet+kill the noise+skrillex|burst|RE_BURST|12th planet+kill the noise": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "search showed no Burst Kill The Noise 12th Planet re-burst page only unrelated results",
+   "by": "haiku-search"
+  },
+  "12th planet+lumberjvck+protohype|skinny pigs||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/skinny-pigs/8724032",
+   "sourceType": "beatport",
+   "note": "Original Mix, SMOG, 2016-12-07. songbpm says C#/Db major at 75 and was not used.",
+   "by": "opus-search"
+  },
+  "12th planet+oolacile|bongo boi||": {
+   "key": "E Minor",
+   "camelot": "9A",
+   "bpm": 144,
+   "source": "https://www.mixgraph.io/tracks/12th-planet-bongo-boi",
+   "sourceType": "mixgraph",
+   "note": "artist page, 9A",
+   "by": "haiku-mixgraph"
+  },
+  "12th planet+phaseone|slaughter them all||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/12th-planet-slaughter-them-all",
+   "sourceType": "mixgraph",
+   "note": "artist page, 4A",
+   "by": "haiku-mixgraph"
+  },
+  "12th planet+twine+virtual riot|gully squad||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no beatport or other page for Gully Squad in search results",
+   "by": "haiku-search"
+  },
+  "12th planet+zomboy|dead presidents||": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 145,
+   "source": "https://www.mixgraph.io/tracks/12th-planet-dead-presidents-ft-jay-fresh",
+   "sourceType": "mixgraph",
+   "note": "artist page (Ft. Jay Fresh), 7B",
+   "by": "haiku-mixgraph"
+  },
+  "12th planet|rvd||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/12th-planet-rvd-ft-mikey-ceasar",
+   "sourceType": "mixgraph",
+   "note": "artist page (RVD ft Mikey Ceasar), 4A",
+   "by": "haiku-mixgraph"
+  },
+  "afk+carbin|boss||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "beatport Boss 13316026 is by Slipz not AFK and Carbin; no matching page",
+   "by": "haiku-search"
+  },
+  "afk+carbin|boss|REMIX|charlie zane+detrace": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Boss Detrace Charlie Zane remix page found; checked pages were other tracks",
+   "by": "haiku-search"
+  },
+  "afk+carbin|boss|VIP|afk+carbin": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Boss page found is Slipz Original Mix not AFK and Carbin VIP; no VIP match",
+   "by": "haiku-search"
+  },
+  "afk+svdden death|bzzrk|REMIX|ubur": {
+   "key": "D# Minor",
+   "camelot": "2A",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/bzzrk/11333215",
+   "sourceType": "beatport",
+   "note": "Exact match: 'BZZRK (Ubur Remix)', AFK & Svdden Death, remixer UBUR, Bassrush Records BZZRK Remixes, released 2018-12-05 (after Lost Lands 2018, so SQUNTO played it before release).",
+   "by": "opus-search"
+  },
+  "afk+wooli|wdgaf (we don't give a fuck)|VIP|afk+wooli": {
+   "key": "C# Major",
+   "camelot": "3B",
+   "bpm": 150,
+   "source": "https://tunebat.com/Info/Wdgaf-Wooli-Vip-Wooli-AFK-Jay-Fresh/2Ecb2vjbJ3PTO8CgdIp7zz",
+   "sourceType": "tunebat",
+   "note": "Tunebat's own page for 'Wdgaf (Wooli Vip)' by Wooli, AFK, Jay Fresh, single released 2018-08-08, 2:30 long. Not on Beatport. I am assuming this is the VIP in the set; no other WDGAF VIP was found. Med",
+   "by": "opus-search"
+  },
+  "afk+wooli|wdgaf||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: no WDGAF page in results; Beatport Wut hit is Wiggum",
+   "by": "haiku-search"
+  },
+  "akira+subfiltronik|black knight|REMIX|al ross": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: no Black Knight Al Ross Remix page in results",
+   "by": "haiku-search"
+  },
+  "atliens|interstellar|REMIX|tynan": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no page for Interstellar TYNAN Remix by ATLiens; beatport Interstellar results are other artists",
+   "by": "haiku-search"
+  },
+  "atliens|witch doctor (g-rex & peekaboo (usa) remix)||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no ATLiens Witch Doctor G-REX remix page found; Witchdoctor by 1991 is different",
+   "by": "haiku-search"
+  },
+  "badklaat|campers||": {
+   "key": "E Major",
+   "camelot": "12B",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/badklaat-campers",
+   "sourceType": "mixgraph",
+   "note": "artist page, 12B",
+   "by": "haiku-mixgraph"
+  },
+  "badklaat|head crush||": {
+   "key": "C Minor",
+   "camelot": "5A",
+   "bpm": 72,
+   "source": "https://www.mixgraph.io/tracks/badklaat-head-crush",
+   "sourceType": "mixgraph",
+   "note": "artist page, 5A, original mix",
+   "by": "haiku-mixgraph"
+  },
+  "badklaat|just blaze it||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "badklaat|knuckle sandwich||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/knuckle-sandwich/9765750",
+   "sourceType": "beatport",
+   "note": "Original Mix, NSD: Black Label, 2017-09-25. songbpm agrees on F minor (75, or 150 double time).",
+   "by": "opus-search"
+  },
+  "badklaat|neon||": {
+   "key": "E Minor",
+   "camelot": "9A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/badklaat-neon",
+   "sourceType": "mixgraph",
+   "note": "artist page, 9A",
+   "by": "haiku-mixgraph"
+  },
+  "badklaat|roawr||": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 145,
+   "source": "https://www.mixgraph.io/tracks/badklaat-roawr",
+   "sourceType": "mixgraph",
+   "note": "track page, 7B, original mix",
+   "by": "haiku-mixgraph"
+  },
+  "badklaat|rompa stompa||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "badklaat|uk cheese||": {
+   "key": "A Minor",
+   "camelot": "8A",
+   "bpm": 73,
+   "source": "https://www.mixgraph.io/tracks/badklaat-uk-cheese",
+   "sourceType": "mixgraph",
+   "note": "artist page, 8A",
+   "by": "haiku-mixgraph"
+  },
+  "bandlez|spy kidz||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Spy Kidz: search returned no track page for this title, only unrelated tracks",
+   "by": "haiku-search"
+  },
+  "bandlez|twister||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Bandlez Twister: no matching Bandlez page in search; closest hit was Viper The Twister, wrong artist",
+   "by": "haiku-search"
+  },
+  "bar9|kolkata||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/kolkata/7525789",
+   "sourceType": "beatport",
+   "note": "Original Mix, Never Say Die Records, 2016-01-22. Not the JDG/KSHMR 'Kolkata'. songbpm's 113 BPM with no key was not used.",
+   "by": "opus-search"
+  },
+  "barely alive+modestep+virtual riot|by my side||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no page for By My Side by Modestep and Virtual Riot and Barely Alive in search results",
+   "by": "haiku-search"
+  },
+  "barely alive+panda eyes+virtual riot|triforce|REMIX|eliminate": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Triforce Eliminate Remix page in results; only unrelated Panda Eyes and other tracks",
+   "by": "haiku-search"
+  },
+  "barely alive+virtual riot|basement dwellers||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no page for Basement Dwellers by Barely Alive and Virtual Riot in search results",
+   "by": "haiku-search"
+  },
+  "barely alive|bang your head||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found, no page for this track in search results",
+   "by": "haiku-search"
+  },
+  "barely alive|ca$h||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: results show CA SHED UP and other titles, no Ca and dollar sign Cash page",
+   "by": "haiku-search"
+  },
+  "barely alive|odyssey||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Odyssey pages checked were Enzo Siragusa and Rival Consoles, not Barely Alive",
+   "by": "haiku-search"
+  },
+  "barely alive|poison dart|REMIX|herobust busted": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found, Herobust Busted Remix not found, Busted page found is a different artist and track",
+   "by": "haiku-search"
+  },
+  "barely alive|shutdown||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 150,
+   "source": "https://tunebat.com/Info/Shutdown-BARELY-ALIVE/4zcLBfpmpWJpC0Nol0nEkR",
+   "sourceType": "tunebat",
+   "note": "Odyssey album version (the standalone single has the same duration). Not the unrelated Beatport release 'Shutdown' by Kre/Freek/Basshoven.",
+   "by": "opus-search"
+  },
+  "barely alive|windpipe|REMIX|getter": {
+   "key": "F# Minor",
+   "camelot": "11A",
+   "bpm": 75,
+   "source": "https://tunebat.com/Info/Windpipe-Getter-Remix-BARELY-ALIVE-Ragga-Twins-Getter/3vKnwnryjxzAzf5eo4RQHN",
+   "sourceType": "tunebat",
+   "note": "Getter Remix from We Are Barely Alive (The Remixes), Disciple 2016. Not the original and not the Emperor Remix. Listed at half time (75 = 150).",
+   "by": "opus-search"
+  },
+  "barely alive|wompum||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no page for Wompum by Barely Alive in results; womp track is a different title",
+   "by": "haiku-search"
+  },
+  "bassnectar|what|REMIX|bear grillz+wooli": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no page for What Wooli Bear Grillz Remix by Bassnectar in search results",
+   "by": "haiku-search"
+  },
+  "bear grillz|every day||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/-/7785271",
+   "sourceType": "beatport",
+   "note": "Matched the original mix: Firepower Records, released 2016-04-22, from the Mo Honey Mo Problems EP. songbpm disagrees: C#/Db major, 150.",
+   "by": "opus-search"
+  },
+  "bear grillz|fuck bitches get honey||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/-/7785269",
+   "sourceType": "beatport",
+   "note": "Matched the original mix: Firepower Records, released 2016-04-22, from the Mo Honey Mo Problems EP. songbpm agrees: F minor, 150.",
+   "by": "opus-search"
+  },
+  "bear grillz|mayweather||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no track page for Mayweather by Bear Grillz in search results",
+   "by": "haiku-search"
+  },
+  "bear grillz|too loud||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no page for Too Loud by Bear Grillz in search results",
+   "by": "haiku-search"
+  },
+  "black tiger sex machine+lektrique|armada||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: search gave no Armada track page, only artist profile and unrelated Protocol and Cheatcode tracks",
+   "by": "haiku-search"
+  },
+  "black tiger sex machine+lektrique|death||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: search gave no Death track page, only artist profile and unrelated Cheatcode and Protocol tracks",
+   "by": "haiku-search"
+  },
+  "black tiger sex machine+lektrique|religion||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: search gave no Religion track page, only artist profiles, event pages and unrelated Protocol and Cheatcode tracks",
+   "by": "haiku-search"
+  },
+  "black tiger sex machine|face down||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no page for Face Down in search results; only unrelated cheatcode and protocol tracks",
+   "by": "haiku-search"
+  },
+  "bob marley|three little birds||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Beatport, mixgraph, Tunebat or songbpm page for Bob Marley Three Little Birds; only getsongbpm and other sites",
+   "by": "haiku-search"
+  },
+  "bommer+crowell|yasuo||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Beatport, mixgraph, Tunebat or songbpm page for this track in search results",
+   "by": "haiku-search"
+  },
+  "boogie t+ganja white night|flava||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Flava: no track page in results, only a premiere article, release pages and unrelated tracks",
+   "by": "haiku-search"
+  },
+  "boogie t+ganja white night|reminisce||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: no Reminisce page in results",
+   "by": "haiku-search"
+  },
+  "boogie t+subtronics|hit *em||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "search showed no Hit Em page only unrelated Subtronics-adjacent titles",
+   "by": "haiku-search"
+  },
+  "boogie t+whiskers|bad motha||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: no Bad Motha page in results",
+   "by": "haiku-search"
+  },
+  "boogie t|2kfo||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no 2KFO page in results; only Boogie T unrelated titles and artist pages",
+   "by": "haiku-search"
+  },
+  "boogie t|2kfo|REMIX|subtronics": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: no 2KFO Subtronics Remix page in results",
+   "by": "haiku-search"
+  },
+  "boogie t|ain't safe||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Ain't Safe page in results; only unrelated Boogie T and Boogie titles",
+   "by": "haiku-search"
+  },
+  "boogie t|open up this pit||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Open Up This Pit: search gave only plain Open Up tracks with different titles, no exact match",
+   "by": "haiku-search"
+  },
+  "boogie t|raven master||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: search gave no Raven Master track page, only artist profile and unrelated tracks",
+   "by": "haiku-search"
+  },
+  "boogie t|riddim nation||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Riddim Nation page in results; only unrelated Boogie titles",
+   "by": "haiku-search"
+  },
+  "boogie t|riddimstep||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no RiddimStep page in results; only unrelated Boogie T titles",
+   "by": "haiku-search"
+  },
+  "boogie t|whatstep||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Whatstep page in results; only unrelated Boogie T titles",
+   "by": "haiku-search"
+  },
+  "boogie t|wiggle riddim||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "beatport wiggle page is Roygreen and Protone Wiggle not Boogie T; no match",
+   "by": "haiku-search"
+  },
+  "boombox cartel|alamo||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "fetched Beatport page was Alt-A Boombox Funk, not Boombox Cartel Alamo; no matching page found",
+   "by": "haiku-search"
+  },
+  "boombox cartel|jefe||": {
+   "key": "Eb Minor",
+   "camelot": "2A",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/-/9159184",
+   "sourceType": "beatport",
+   "note": "Original Mix, Mad Decent, 2017-04-21.",
+   "by": "opus-search"
+  },
+  "borgore|blast ya||": {
+   "key": "Gb Minor",
+   "camelot": "11A",
+   "bpm": 75,
+   "source": "https://www.beatport.com/track/-/7764052",
+   "sourceType": "beatport",
+   "note": "Matched the original mix: Buygore Records, released 2016-04-01. Gb Minor is the same key as F# Minor. Beatport lists the half-time tempo (75). songbpm agrees on the key (F#/Gb minor) and lists 150.",
+   "by": "opus-search"
+  },
+  "bro safari|follow|REMIX|zomboy": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Follow Zomboy Remix page in search results",
+   "by": "haiku-search"
+  },
+  "calcium+k-nine|damn son||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: beatport Damn Son hit was Nico and Trace, different artists",
+   "by": "haiku-search"
+  },
+  "calcium|f.w.y.s||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "search showed no FWYS page only unrelated Calcium-adjacent titles",
+   "by": "haiku-search"
+  },
+  "carbin|twenty-2-life||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Twenty-2-Life page in results; only Carbin artist page and unrelated tracks",
+   "by": "haiku-search"
+  },
+  "carrot|wiz kid||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Not found. The only release on Spotify is 'Wiz Kid - Lifecycle (NL) Remix' by 50 Carrot (June EP), which is a remix, not the original. No original found on Beatport, Tunebat or songbpm.",
+   "by": "opus-search"
+  },
+  "celldweller|the imperial march|REMIX|pegboard nerds": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found, no page for this remix in search results",
+   "by": "haiku-search"
+  },
+  "cher|believe||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "two Beatport Believe pages fetched were George Vidal and Ministers De La Funk, not Cher; no match",
+   "by": "haiku-search"
+  },
+  "chibs|sharingan||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Not found. Not on Beatport search results, Mixgraph's Chibs page (24 tracks) or songbpm. Probably unreleased or SoundCloud-only.",
+   "by": "opus-search"
+  },
+  "chodegang|its chodegang motherfucker||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: no ChodeGang track page in results, no mixgraph or songbpm hit",
+   "by": "haiku-search"
+  },
+  "cookie monsta|ruff 2018||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Cookie Monsta Ruff 2018: no page for this track; search hits were other artists or unrelated Ruff tracks",
+   "by": "haiku-search"
+  },
+  "crankdat+slander|kneel before me||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found, no preferred source page for this track in search results",
+   "by": "haiku-search"
+  },
+  "dangerous+fraksure+rusko+simskai|walalangleng||": {
+   "key": "E Minor",
+   "camelot": "9A",
+   "bpm": 145,
+   "source": "https://www.beatport.com/track/-/10389733",
+   "sourceType": "beatport",
+   "note": "Matched the original mix: Circus Records, released 2018-04-04, all four artists credited. songbpm disagrees: D major, 145.",
+   "by": "opus-search"
+  },
+  "datsik+dion timmer+excision|harambe||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "delta heavy|exodus||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Exodus by Delta Heavy page in results; only unrelated tracks",
+   "by": "haiku-search"
+  },
+  "detrace+wooli|kong||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: songbpm Kong page lists Wooli only and no mode, Detrace not shown; not confirmed",
+   "by": "haiku-search"
+  },
+  "dion timmer+excision|africa||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 148,
+   "source": "https://www.mixgraph.io/tracks/excision-africa",
+   "sourceType": "mixgraph",
+   "note": "track page; Camelot 4A; original mix",
+   "by": "haiku-mixgraph"
+  },
+  "dion timmer+excision|africa|REMIX|12th planet+antiserum": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 75,
+   "source": "https://www.mixgraph.io/tracks/excision-africa-12th-planet-antiserum-remix",
+   "sourceType": "mixgraph",
+   "note": "track page; Camelot 4A; 12th Planet and Antiserum remix",
+   "by": "haiku-mixgraph",
+   "alt": [
+    {
+     "key": null,
+     "camelot": null,
+     "bpm": 75,
+     "source": "https://songbpm.com/@excision/africa-12th-planet-antiserum-remix",
+     "sourceType": "songbpm",
+     "note": "version matches 12th Planet and Antiserum Remix; songbpm lists BPM 75 but key field blank",
+     "by": "haiku-search"
+    }
+   ]
+  },
+  "dion timmer+excision|final boss|REMIX|wavedash": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 92,
+   "source": "https://www.mixgraph.io/tracks/excision-final-boss-wavedash-remix",
+   "sourceType": "mixgraph",
+   "note": "track page; Camelot 4A; Wavedash remix",
+   "by": "haiku-mixgraph"
+  },
+  "dion timmer+excision|her|REMIX|wooli": {
+   "key": "Bb Major",
+   "camelot": "6B",
+   "bpm": 75,
+   "source": "https://www.mixgraph.io/tracks/excision-her-wooli-remix",
+   "sourceType": "mixgraph",
+   "note": "track page; Camelot 6B; Wooli remix",
+   "by": "haiku-mixgraph"
+  },
+  "dion timmer+excision|home||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "dion timmer+excision|hoods up|REMIX|he$h": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 150,
+   "source": "https://songbpm.com/@dion-timmer/hoods-up---he-h-remix-XviBBZjw8z",
+   "sourceType": "songbpm",
+   "note": "Matched the He$H Remix: songbpm entry 'Hoods Up - He$h Remix', 5:00, whose Apple link is the He$h Remix. No Beatport page found. songbpm's Excision 'Hoods Up' entries (C#/Db major, 75) were not used: ",
+   "by": "opus-search"
+  },
+  "dion timmer+excision|mirror|REMIX|kai wachi": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "dion timmer+excision|where are you||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "dion timmer+snails|forever|REMIX|funtcase": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Snails and Dion Timmer Forever FuntCase Remix: no match; Forever results were other artists (Crazibiza, Ed Rush)",
+   "by": "haiku-search"
+  },
+  "dion timmer|dreaming out loud||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "fetched Beatport page was Dion Timmer Shiawase, not Dreaming Out Loud; no matching page found",
+   "by": "haiku-search"
+  },
+  "dion timmer|tell you why||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "search showed Tell You Why only by Route 94 and unrelated why tracks not Dion Timmer",
+   "by": "haiku-search"
+  },
+  "dion timmer|very extra||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Dion Timmer Very Extra: no Very Extra track page; the only Dion Timmer track page found was Shiawase, a different title",
+   "by": "haiku-search"
+  },
+  "dirt monkey+ganja white night|no escape||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Beatport, mixgraph, Tunebat or songbpm page for No Escape; only a news article",
+   "by": "haiku-search"
+  },
+  "dirt monkey+space jesus|sofa surfin||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Space Jesus and Dirt Monkey Sofa Surfin: no Sofa Surfin page in search results; only a Space Jesus artist profile and unrelated tracks",
+   "by": "haiku-search"
+  },
+  "dirt monkey+subdocta|west coast wobble||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "West Coast Wobble: no track page in results, only SubDocta artist pages and an unrelated release",
+   "by": "haiku-search"
+  },
+  "dirt monkey+subtronics|warp drive||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no beatport or mixgraph page for Warp Drive by Subtronics and Dirt Monkey in search results",
+   "by": "haiku-search"
+  },
+  "dirt monkey+tincup|pedal 2 tha floor||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "dirt monkey|b.a.n.a.n.a.s||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "dirt monkey|badman wub||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "dirt monkey|dub5tep 101||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "dirt monkey|frog island||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Dirt Monkey Frog Island: no Frog Island page in search results; hits were unrelated monkey titles",
+   "by": "haiku-search"
+  },
+  "dirt monkey|imperial march vip||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "dirt monkey|lift off||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "dirt monkey|party pump||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "dirt monkey|peanut butter jelly time||": {
+   "key": "E Major",
+   "camelot": "12B",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/dirt-monkey-peanut-butter-jelly-time",
+   "sourceType": "mixgraph",
+   "note": "artist page, 12B",
+   "by": "haiku-mixgraph"
+  },
+  "dirtysnatcha|cum wid da spoon||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Cum Wid Da Spoon page in results; only unrelated tracks",
+   "by": "haiku-search"
+  },
+  "disciple|get lemon||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: search gave no Get Lemon track page, only Disciple discography and release pages",
+   "by": "haiku-search"
+  },
+  "doctor p|flying spaghetti monster|REMIX|spag heddy": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: no Spag Heddy remix page for Flying Spaghetti Monster in results",
+   "by": "haiku-search"
+  },
+  "doctor p|somebody scream||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Scream pages checked were Mea and Kilo, no Somebody Scream by Doctor P",
+   "by": "haiku-search"
+  },
+  "doctor p|tetris||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: search gave no Doctor P Tetris track page, only artist bios and unrelated tracks",
+   "by": "haiku-search"
+  },
+  "downlink+excision+space laces|destroid 2. wasteland||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "downlink+excision+space laces|destroid 3. crusaders||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 105,
+   "source": "https://www.mixgraph.io/tracks/excision-destroid-3-crusaders",
+   "sourceType": "mixgraph",
+   "note": "track page; Camelot 4A; with Downlink and Space Laces",
+   "by": "haiku-mixgraph"
+  },
+  "downlink+excision|crowd control||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "downlink+excision|existence|VIP|downlink+excision": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "downlink+excision|headbanga||": {
+   "key": "F# Major",
+   "camelot": "2B",
+   "bpm": 140,
+   "source": "https://www.mixgraph.io/tracks/excision-headbanga",
+   "sourceType": "mixgraph",
+   "note": "track page; Camelot 2B; original mix",
+   "by": "haiku-mixgraph"
+  },
+  "downlink+excision|robo kitty||": {
+   "key": "A Minor",
+   "camelot": "8A",
+   "bpm": 70,
+   "source": "https://www.mixgraph.io/tracks/excision-robo-kitty",
+   "sourceType": "mixgraph",
+   "note": "track page; Camelot 8A; Downlink",
+   "by": "haiku-mixgraph"
+  },
+  "downlink+excision|rock you||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "downlink|absolute fire||": {
+   "key": "E Major",
+   "camelot": "12B",
+   "bpm": 99,
+   "source": "https://www.beatport.com/track/-/10289172",
+   "sourceType": "beatport",
+   "note": "Downlink Absolute Fire Original Mix matched",
+   "by": "haiku-search"
+  },
+  "downlink|bass war||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 87,
+   "source": "https://www.mixgraph.io/tracks/downlink-bass-war",
+   "sourceType": "mixgraph",
+   "note": "artist page, 4A",
+   "by": "haiku-mixgraph"
+  },
+  "downlink|hotel trap||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "downlink|ignition||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "downlink|mosh pit||": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 145,
+   "source": "https://www.mixgraph.io/tracks/downlink-mosh-pit",
+   "sourceType": "mixgraph",
+   "note": "artist page, 7B, original mix",
+   "by": "haiku-mixgraph"
+  },
+  "downlink|threat||": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 73,
+   "source": "https://www.mixgraph.io/tracks/downlink-threat",
+   "sourceType": "mixgraph",
+   "note": "artist page, 7B, original mix",
+   "by": "haiku-mixgraph"
+  },
+  "dr. ozi|hartyhar||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no HartyHar page in results; only unrelated Beatport tracks and an artist page",
+   "by": "haiku-search"
+  },
+  "dr. ozi|youth in asia||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 145,
+   "source": "https://www.beatport.com/track/youth-in-asia-original-mix/7914469",
+   "sourceType": "beatport",
+   "note": "Original Mix, NSD: Black Label, 2016-05-16. Not the VIP (2019-12-09, 150 / F Minor), which came out after Lost Lands 2018.",
+   "by": "opus-search"
+  },
+  "dubloadz+g-rex+peekaboo (usa)|grease||": {
+   "key": "10A",
+   "camelot": "10A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/dubloadz-grease",
+   "sourceType": "mixgraph",
+   "note": "artist page (Dubloadz, G-Rex), Camelot only",
+   "by": "haiku-mixgraph"
+  },
+  "dubloadz+g-rex+peekaboo|grease||": {
+   "key": "10A",
+   "camelot": "10A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/dubloadz-grease",
+   "sourceType": "mixgraph",
+   "note": "artist page (with G-Rex and Peekaboo), Camelot only",
+   "by": "haiku-mixgraph"
+  },
+  "dubloadz+spag heddy|chunks||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "dubloadz+yakz|ghost vomit||": {
+   "key": "5A",
+   "camelot": "5A",
+   "bpm": 145,
+   "source": "https://www.mixgraph.io/tracks/dubloadz-ghost-vomit",
+   "sourceType": "mixgraph",
+   "note": "artist page (with Yakz), Camelot only",
+   "by": "haiku-mixgraph"
+  },
+  "dubloadz|break the rail||": {
+   "key": "9B",
+   "camelot": "9B",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/dubloadz-break-the-rail-feat-sullivan-king",
+   "sourceType": "mixgraph",
+   "note": "artist page (feat. Sullivan King), Camelot only",
+   "by": "haiku-mixgraph"
+  },
+  "dubloadz|fight music 2017||": {
+   "key": "12A",
+   "camelot": "12A",
+   "bpm": 145,
+   "source": "https://www.mixgraph.io/tracks/dubloadz-fight-music-2017",
+   "sourceType": "mixgraph",
+   "note": "artist page, Camelot only",
+   "by": "haiku-mixgraph"
+  },
+  "dubloadz|ghost gang||": {
+   "key": "2B",
+   "camelot": "2B",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/dubloadz-ghost-gang",
+   "sourceType": "mixgraph",
+   "note": "artist page, Camelot only",
+   "by": "haiku-mixgraph"
+  },
+  "dubloadz|korok khaos||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "dubloadz|mind eraser|VIP|dubloadz": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "dubloadz|riddim rats|VIP|dubloadz": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "dubloadz|what's poppin?|VIP|dubloadz": {
+   "key": "11A",
+   "camelot": "11A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/dubloadz-whats-poppin-vip-mix",
+   "sourceType": "mixgraph",
+   "note": "artist page (VIP Mix), Camelot only",
+   "by": "haiku-mixgraph"
+  },
+  "ecraze+graphyt+ivory+samplifire|animalz||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: hits were Rewind Selecta by Ecraze and Animal by IVORY with Shaquille, not Animalz",
+   "by": "haiku-search"
+  },
+  "eh!de+midnight tyrannosaurus|planet purge pt. 2||": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": null,
+   "source": "https://www.beatport.com/track/planet-purge-pt-2-instrumental-mix/9024200",
+   "sourceType": "beatport",
+   "note": "The only Pt. 2 listing found is the Instrumental Mix (NSD: Black Label, Never Say Die One Hundred Pt. 2, 2017-03-10). The page has a BPM field but it is empty. No other version or BPM listing was foun",
+   "by": "opus-search"
+  },
+  "eh!de|cosmic cat|VIP|eh!de": {
+   "key": "C# Major",
+   "camelot": "3B",
+   "bpm": 112,
+   "source": "https://tunebat.com/Info/Cosmic-Cat-VIP-EH-DE/5BAVy0BvBDf5iVaZfIqeKE",
+   "sourceType": "tunebat",
+   "note": "Tunebat's own page for 'Cosmic Cat (VIP)', single dated 2016-08-11, 3:50 long. Not on Beatport. Low confidence: 112 BPM looks like a detection error for a roughly 150 BPM track. The original Cosmic Ca",
+   "by": "opus-search"
+  },
+  "eliminate|found a way||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Eliminate Found A Way page found; checked 404 Intro instead",
+   "by": "haiku-search"
+  },
+  "eliminate|walls|REMIX|subtronics": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: search gave no Eliminate Walls Subtronics Remix page, only unrelated beatport tracks",
+   "by": "haiku-search"
+  },
+  "emalkay|fabrication||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "beatport Fabrication Massive page had no artist key or BPM shown",
+   "by": "haiku-search"
+  },
+  "eprom+g jones|hysteria||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: beatport Hysteria hit was Bazco, different artist",
+   "by": "haiku-search"
+  },
+  "eptic|bloodlust||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "search showed no Bloodlust page only Lust and other Eptic-adjacent titles",
+   "by": "haiku-search"
+  },
+  "eptic|no mercy||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no page for No Mercy by Eptic in results; 11133826 is Barrett",
+   "by": "haiku-search"
+  },
+  "excision+illenium|gold||": {
+   "key": "Eb Minor",
+   "camelot": "2A",
+   "bpm": 144,
+   "source": "https://www.mixgraph.io/tracks/excision-gold-stupid-love-feat-shallows",
+   "sourceType": "mixgraph",
+   "note": "title on Mixgraph is Gold (Stupid Love) feat. Shallows; matched on artists and featured Shallows, not exact title; Camelot 2A",
+   "by": "haiku-mixgraph"
+  },
+  "excision+space laces|1 on 1||": {
+   "key": "E Major",
+   "camelot": "12B",
+   "bpm": 150,
+   "source": "https://songbpm.com/@excision/1-on-1",
+   "sourceType": "songbpm",
+   "note": "songbpm 1 On 1 by Excision feat Space Laces, original, version not stated on page",
+   "by": "haiku-search"
+  },
+  "excision+space laces|1 on 1|VIP|excision+space laces": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "excision+space laces|destroid 10. funk hole||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "excision+space laces|destroid 11. get stupid||": {
+   "key": "G Minor",
+   "camelot": "6A",
+   "bpm": 86,
+   "source": "https://www.mixgraph.io/tracks/excision-destroid-11-get-stupid",
+   "sourceType": "mixgraph",
+   "note": "track page; Camelot 6A; with Space Laces",
+   "by": "haiku-mixgraph"
+  },
+  "excision+space laces|destroid 7. bounce||": {
+   "key": "E Minor",
+   "camelot": "9A",
+   "bpm": 140,
+   "source": "https://www.mixgraph.io/tracks/excision-destroid-7-bounce",
+   "sourceType": "mixgraph",
+   "note": "track page; Camelot 9A; with Space Laces",
+   "by": "haiku-mixgraph"
+  },
+  "excision+space laces|rumble||": {
+   "key": "E Major",
+   "camelot": "12B",
+   "bpm": 83,
+   "source": "https://www.mixgraph.io/tracks/excision-rumble",
+   "sourceType": "mixgraph",
+   "note": "track page; Camelot 12B; original mix",
+   "by": "haiku-mixgraph"
+  },
+  "excision+space laces|rumble|VIP|excision+space laces": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "excision+space laces|throwin' elbows||": {
+   "key": "E Minor",
+   "camelot": "9A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/excision-throwin-elbows",
+   "sourceType": "mixgraph",
+   "note": "Camelot 9A; artist page, original mix",
+   "by": "haiku-mixgraph"
+  },
+  "excision+space laces|throwin' elbows|EDIT|wooli": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "excision+space laces|throwin' elbows|REMIX|getter+virtual riot": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Throwin Elbows Getter VR remix track page in search results",
+   "by": "haiku-search"
+  },
+  "excision+space laces|throwin' elbows|VIP|excision+space laces": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "excision+sullivan king|wake up||": {
+   "key": "Eb Minor",
+   "camelot": "2A",
+   "bpm": 90,
+   "source": "https://www.mixgraph.io/tracks/excision-wake-up",
+   "sourceType": "mixgraph",
+   "note": "track page; Camelot 2A; with Sullivan King",
+   "by": "haiku-mixgraph"
+  },
+  "excision|codename x|REMIX|virtual riot": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 112,
+   "source": "https://www.mixgraph.io/tracks/excision-codename-x-virtual-riot-remix",
+   "sourceType": "mixgraph",
+   "note": "track page; Camelot 7B; Virtual Riot remix",
+   "by": "haiku-mixgraph"
+  },
+  "excision|creepy uncle||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "excision|death wish||": {
+   "key": "Bb Minor",
+   "camelot": "3A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/excision-death-wish-feat-sam-king",
+   "sourceType": "mixgraph",
+   "note": "track page; Camelot 3A; feat. Sam King",
+   "by": "haiku-mixgraph"
+  },
+  "excision|die for you||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "excision|fall||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "excision|g shit|REMIX|badklaat": {
+   "key": "D Minor",
+   "camelot": "7A",
+   "bpm": 150,
+   "source": "https://www.mixgraph.io/tracks/excision-g-shit-feat-sam-king-badklaat-remix",
+   "sourceType": "mixgraph",
+   "note": "track page; Camelot 7A; BadKlaat remix",
+   "by": "haiku-mixgraph"
+  },
+  "excision|power||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "excision|tonight||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "excision|virus||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "excision|virus|REMIX|dubloadz": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 75,
+   "source": "https://www.mixgraph.io/tracks/excision-virus-dubloadz-remix",
+   "sourceType": "mixgraph",
+   "note": "track page; Camelot 4A; Dubloadz remix",
+   "by": "haiku-mixgraph"
+  },
+  "excision|with you|REMIX|sullivan king": {
+   "key": "Eb Minor",
+   "camelot": "2A",
+   "bpm": 75,
+   "source": "https://www.mixgraph.io/tracks/excision-with-you-feat-madi-sullivan-king-remix",
+   "sourceType": "mixgraph",
+   "note": "track page; Camelot 2A; Sullivan King remix",
+   "by": "haiku-mixgraph"
+  },
+  "excision|x rated|REMIX|space laces": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "figure|heartbeat of hell||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Heartbeat Of Hell page in search results",
+   "by": "haiku-search"
+  },
+  "flosstradamus+gta|prison riot||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/prison-riot-original-mix/7739669",
+   "sourceType": "beatport",
+   "note": "Beatport credits Flosstradamus, Lil Jon, GTA. Original Mix, Ultra, 2016-03-11. songbpm says C#/Db major and was not used.",
+   "by": "opus-search"
+  },
+  "flosstradamus+valentino khan|mfu||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found, no page for MFU in search results",
+   "by": "haiku-search"
+  },
+  "flosstradamus|mosh pit||": {
+   "key": "D Major",
+   "camelot": "10B",
+   "bpm": 140,
+   "source": "https://songbpm.com/@flosstradamus/mosh-pit",
+   "sourceType": "songbpm",
+   "note": "Original version (3:19). Six duplicate songbpm listings agree: D major, 140. One 3:04 listing says C#/Db, 138 (probably an edit). This is not the Caked Up Remix. No Beatport page found.",
+   "by": "opus-search"
+  },
+  "flume|never be like you||": {
+   "key": "C Major",
+   "camelot": "8B",
+   "bpm": 120,
+   "source": "https://songbpm.com/@flume/never-be-like-you-ash8o",
+   "sourceType": "songbpm",
+   "note": "This is the ORIGINAL's key, as instructed. Five songbpm listings agree: C, 120. The version played in the set is probably a riddim remix or flip and was not identified. The Disclosure Remix is D, 120 ",
+   "by": "opus-search"
+  },
+  "flux pavilion|bass cannon||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: no beatport or mixgraph page for Bass Cannon; hits were Beat Cannon by Mashur and others",
+   "by": "haiku-search"
+  },
+  "fox stevenson|miss you||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Fox Stevenson Miss You: no match; Fox Stevenson page found was Good Time, other hit was Craig David",
+   "by": "haiku-search"
+  },
+  "french montana|pop that||": {
+   "key": "D Major",
+   "camelot": "10B",
+   "bpm": 138,
+   "source": "https://tunebat.com/Info/Pop-That-French-Montana-Rick-Ross-Drake-Lil-Wayne/3Jv1XgMPVjdN5xGfnRJ20s",
+   "sourceType": "tunebat",
+   "note": "original mix, artists and title match",
+   "by": "haiku-search"
+  },
+  "funtcase+wooli|man don't want war||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "search showed only war titled pages none for Man Dont Want War",
+   "by": "haiku-search"
+  },
+  "future|mask off||": {
+   "key": "Dm",
+   "camelot": "7A",
+   "bpm": 76,
+   "source": "https://sfrbeats.com/tools/bpm/future/mask-off",
+   "sourceType": "other",
+   "note": "no beatport mixgraph tunebat or songbpm page found; sfrbeats exact-track page original mix",
+   "by": "haiku-search"
+  },
+  "g-rex+peekaboo (usa)|babatunde||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no matching beatport mixgraph tunebat or songbpm page in search results",
+   "by": "haiku-search"
+  },
+  "g-rex|wook blaster||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "G-REX Wook Blaster: no match; Wook page was Entita and Serpnt, other hit was Warriors by The Way",
+   "by": "haiku-search"
+  },
+  "gammer|the drop||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "search showed no Gammer The Drop track page only other tracks and a masterclass article",
+   "by": "haiku-search"
+  },
+  "ganja white night|wobble master|VIP|ganja white night": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Wobble Master VIP page in results; only other Ganja White Night tracks",
+   "by": "haiku-search"
+  },
+  "getter+space laces|choppaz||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no beatport page for Choppaz by Space Laces and Getter in results; checked 7718759 which is In The Cuts",
+   "by": "haiku-search"
+  },
+  "getter|rip n dip|REMIX|kill the noise": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Rip N Dip Kill The Noise Remix: no track page in results, only unrelated tracks and an artist profile",
+   "by": "haiku-search"
+  },
+  "gladez+hekler|404||": {
+   "key": "E Minor",
+   "camelot": "9A",
+   "bpm": 81,
+   "source": "https://www.beatport.com/track/404-original-mix/10471919",
+   "sourceType": "beatport",
+   "note": "Original Mix, Never Say Die Records, 2018-04-11. Low confidence: Beatport's 81 BPM looks mis-tagged for a riddim track. Tunebat (https://tunebat.com/Info/404-Hekler-Gladez/7AiHzK8gPY2pSOEbhMib9Q) and ",
+   "by": "opus-search"
+  },
+  "gladez+hekler|404|REMIX|g-rex+tynan": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found, 404 by Hekler & Gladez remix not found, other 404 page is a different artist",
+   "by": "haiku-search"
+  },
+  "gladez+hekler|404|REMIX|wildlyf": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: no Hekler and Gladez 404 WILDLYF page in results",
+   "by": "haiku-search"
+  },
+  "he$h|mike tyson|VIP|he$h": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Not found: no listing of the VIP anywhere. For reference only, songbpm lists a single 'Mike Tyson' by HE$H (4:25, 145 BPM, C#/Db major, https://songbpm.com/@he-h/mike-tyson). It is probably the origin",
+   "by": "opus-search"
+  },
+  "herobust+monxx|giant squiddim||": {
+   "key": "C# Major",
+   "camelot": "3B",
+   "bpm": 145,
+   "source": "https://tunebat.com/Info/Giant-Squiddim-Herobust-Monxx/4uDMthryx0elGpkFSmWuEv",
+   "sourceType": "tunebat",
+   "note": "Spotify single by Herobust and Monxx, released 2017-06-28, 4:40. No Beatport listing found. songbpm gives 145 BPM but leaves the key blank. A later 'Herobust VIP' version exists on Apple Music; this e",
+   "by": "opus-search"
+  },
+  "herobust|move mint|VIP|herobust": {
+   "key": "E Major",
+   "camelot": "12B",
+   "bpm": 128,
+   "source": "https://www.beatport.com/track/move-mint/10081345",
+   "sourceType": "beatport",
+   "note": "VIP matched, Herobust Move Mint VIP page",
+   "by": "haiku-search"
+  },
+  "hydraulix|head bang||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no clearly titled Head Bang page in results; untitled Beatport links not verifiable",
+   "by": "haiku-search"
+  },
+  "hytyd+snails|*to the grave|REMIX|ivory+kompany": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no To The Grave Ivory Kompany remix page in search results",
+   "by": "haiku-search"
+  },
+  "id+subfiltronik|passdademonout||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Unreleased ID. One search, no listing found.",
+   "by": "opus-search"
+  },
+  "id|ashin' blunts||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Unreleased ID. One search, no listing found.",
+   "by": "opus-search"
+  },
+  "illenium|free fall|REMIX|kompany": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Free Fall Kompany Remix: no matching Beatport page; the two Freefall pages found are different artists and tracks",
+   "by": "haiku-search"
+  },
+  "ivory|no regrets||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "search showed no No Regrets track page, only other Ivory tracks",
+   "by": "haiku-search"
+  },
+  "ivory|the fight||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no The Fight page in search results; only other Ivory tracks",
+   "by": "haiku-search"
+  },
+  "ivy lab|cake||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Cake original: Beatport page found is the Nikki Nair Remix, not the original, so no key recorded",
+   "by": "haiku-search"
+  },
+  "kai wachi|bodied||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Bassrush release page has no key or BPM; no track page found",
+   "by": "haiku-search"
+  },
+  "kai wachi|demons|REMIX|squnto": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 75,
+   "source": "https://www.beatport.com/track/demons-squnto-remix/9174635",
+   "sourceType": "beatport",
+   "note": "Exact remix match, Kannibalen Records Demons Remixes, 2017-04-12. This is an official release, not a bootleg. The 75 BPM is half time (150).",
+   "by": "opus-search"
+  },
+  "kaskade|disarm you||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no track page for Disarm You by Kaskade and Ilsey in search results; only unrelated tracks and a catalog page",
+   "by": "haiku-search"
+  },
+  "kayzo|feel the power|REMIX|tisoki": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no page for Feel The Power Tisoki Remix by KAYZO in search results",
+   "by": "haiku-search"
+  },
+  "kayzo|this time||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "This Time pages checked were Dynamite and DJ Malix, not KAYZO",
+   "by": "haiku-search"
+  },
+  "kendrick lamar|humble.||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "fetched Beatport page was Kehlani remix, not Kendrick Lamar HUMBLE; no matching page found",
+   "by": "haiku-search"
+  },
+  "kill the noise+seven lions|cold hearted||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: Cold Hearted hits were by ALB and Breaking Me by Seven Lions, no Seven Lions and Kill The Noise page",
+   "by": "haiku-search"
+  },
+  "kill the noise|without a trace|REMIX|kill the noise+virtual riot": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Without A Trace VR remix: search gave no track page for this remix, only unrelated tracks and an artist profile",
+   "by": "haiku-search"
+  },
+  "kompany+tynan|extraterrestrial||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "beatport pages for Extraterrestrial were by TYNAN or Buba, not TYNAN and Kompany; no match",
+   "by": "haiku-search"
+  },
+  "kompany+wooli|briddim bomb||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": "https://www.edmtunes.com/2018/02/wooli-kompany-briddim-bomb/",
+   "sourceType": "other",
+   "note": "Briddim Bomb original: no beatport mixgraph tunebat songbpm hit; edmtunes article has no key or BPM",
+   "by": "haiku-search"
+  },
+  "kompany+wooli|thicc boi||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Thicc Boi: search returned no track page, only other Kompany and Wooli tracks",
+   "by": "haiku-search"
+  },
+  "kompany|buck||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no mixgraph or beatport page for Buck by Kompany; Buck hits are other artists",
+   "by": "haiku-search"
+  },
+  "kompany|rapture||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Rapture original: Beatport Rapture pages found are other artists (iiO and Danny Darko), no Kompany match",
+   "by": "haiku-search"
+  },
+  "kompany|stomp||": {
+   "key": "Eb Minor",
+   "camelot": "2A",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/-/10827492",
+   "sourceType": "beatport",
+   "note": "Original Mix, Never Say Die Records, 2018-07-20. Other Beatport 'Stomp' releases by other artists were ignored.",
+   "by": "opus-search"
+  },
+  "krischvn|second baked||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Second Baked track page in results; only an EP news article and unrelated tracks",
+   "by": "haiku-search"
+  },
+  "laxx+skism|hostile|REMIX|eptic": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found, Eptic Remix not found, the Hostile page found is a different artist and mix",
+   "by": "haiku-search"
+  },
+  "laxx|feels so good|REMIX|oolacile": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Feels So Good Oolacile Remix page in results; only unrelated LAXX and other tracks",
+   "by": "haiku-search"
+  },
+  "lev3l+sweettooth|impending doom||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no beatport page for Impending Doom by Sweettooth and Lev3l in results; doom/9256801 is other artists",
+   "by": "haiku-search"
+  },
+  "lil wayne|a milli||": {
+   "key": "F♯/G♭",
+   "camelot": null,
+   "bpm": 152,
+   "source": "https://songbpm.com/@lil-wayne/a-milli",
+   "sourceType": "songbpm",
+   "note": "original mix; songbpm page, no mode shown",
+   "by": "haiku-search"
+  },
+  "liquid stranger+space jesus|spaceboss||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no track page for Spaceboss by Liquid Stranger and Space Jesus; only artist profile and unrelated tracks",
+   "by": "haiku-search"
+  },
+  "ludacris|how low||": {
+   "key": "C♯/D♭",
+   "camelot": null,
+   "bpm": 144,
+   "source": "https://songbpm.com/@ludacris/how-low",
+   "sourceType": "songbpm",
+   "note": "Ludacris How Low: songbpm original page; key shown without a mode, version not stated",
+   "by": "haiku-search"
+  },
+  "mantis|moshaholics||": {
+   "key": "D# Minor",
+   "camelot": "2A",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/moshaholics/10063829",
+   "sourceType": "beatport",
+   "note": "Beatport credits Mantis & Messinian. Original Mix, Kannibalen Records, 2017-12-20. The Excision Music re-release ('Moshaholics feat. Messinian', track 11239088) is listed on Mantis's Beatport track li",
+   "by": "opus-search"
+  },
+  "mastadon+samplifire|earthquake||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "mastadon+wooli|elephant march||": {
+   "key": "D# Minor",
+   "camelot": "2A",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/-/11102621",
+   "sourceType": "beatport",
+   "note": "Beatport credits Marauda (Mastadon's later name), Wooli, Travis Richter; Mammoth EP, Never Say Die Records, 2018-10-05. D# Minor is the same key as Eb Minor. songbpm agrees: 150 BPM, A#/Bb minor.",
+   "by": "opus-search"
+  },
+  "mastadon|danger||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "mastadon|death pit||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Death Pit track page in search results",
+   "by": "haiku-search"
+  },
+  "mastadon|machete||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "songbpm Machete page is artist 4b not Mastadon and no Mastadon Machete page found",
+   "by": "haiku-search"
+  },
+  "mastadon|rip||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "mastadon|twin turbo||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not on mixgraph",
+   "by": "haiku-mixgraph"
+  },
+  "megalodon|half breed||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Half Breed page in results; songbpm hits are other Megalodon uploads, not this track",
+   "by": "haiku-search"
+  },
+  "midnight tyrannosaurus|supreme symbiote||": {
+   "key": "A Minor",
+   "camelot": "8A",
+   "bpm": 75,
+   "source": "https://www.beatport.com/track/-/9971172",
+   "sourceType": "beatport",
+   "note": "Original Mix, NSD: Black Label, 2017-11-20. 75 is the half-time listing (150 full time).",
+   "by": "opus-search"
+  },
+  "murda+subtronics|god of destruction||": {
+   "key": "C# Major",
+   "camelot": "3B",
+   "bpm": 145,
+   "source": "https://tunebat.com/Info/God-Of-Destruction-Subtronics-MVRDA/6BaabxHQIfVP2uiQrfXv5w",
+   "sourceType": "tunebat",
+   "note": "Wook Laser EP version (2018-04-20). MurDa is credited under his later name MVRDA. The Beatport release page (wook-laser-ep/2270297) did not render its tracklist, so no Beatport track page was found.",
+   "by": "opus-search"
+  },
+  "murda|ball licker||": {
+   "key": "A Major",
+   "camelot": "11B",
+   "bpm": 145,
+   "source": "https://tunebat.com/Info/Ball-Licker-MVRDA/0ii0c00tXjRFLCQW4pjg3U",
+   "sourceType": "tunebat",
+   "note": "Original single, 2017-09-20. Not the VIP and not the Chassi/Nosphere/Maahir remix. Same recording also on Knights Of The Round Table Vol. 1 (same duration). Relative minor would be F# minor if the mod",
+   "by": "opus-search"
+  },
+  "murda|ball licker|VIP|murda": {
+   "key": "E Major",
+   "camelot": "12B",
+   "bpm": 75,
+   "source": "https://tunebat.com/Info/Ball-Licker-VIP-MVRDA/76Owc5RT2yEqXJaZyANMGf",
+   "sourceType": "tunebat",
+   "note": "The VIP specifically (Spotify 76Owc5RT2yEqXJaZyANMGf, released 2018-04-06 on Very Important Plates). Listed at half time (75 = 150). Relative minor would be C# minor if the mode is wrong.",
+   "by": "opus-search"
+  },
+  "must die!|animal parade||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no MUST DIE Animal Parade page in search results",
+   "by": "haiku-search"
+  },
+  "must die!|fan service||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/-/6963979",
+   "sourceType": "beatport",
+   "note": "Matched the original mix: Never Say Die Records, released 2015-08-24. songbpm disagrees: C#/Db major, 75.",
+   "by": "opus-search"
+  },
+  "must die!|kill it up||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "fetched MUST DIE page was Feline, not Kill It Up; no matching page found",
+   "by": "haiku-search"
+  },
+  "muzzy+teddy killerz|shut it down||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found, no page for this track in search results",
+   "by": "haiku-search"
+  },
+  "nero|innocence||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Nero Innocence not found; Beatport Innocence Electron result was Nero Electron, not a match",
+   "by": "haiku-search"
+  },
+  "nghtmre+snails|only want u|REMIX|kill the noise": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no beatport mixgraph tunebat or songbpm page in search results",
+   "by": "haiku-search"
+  },
+  "noisia|get deaded|REMIX|moody good": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Moody Good Remix page in results; only Bassnectar and Machinedrum remixes on getsongbpm",
+   "by": "haiku-search"
+  },
+  "nxsty|c o u p e||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no NXSTY C O U P E track page in search results",
+   "by": "haiku-search"
+  },
+  "oddprophet|check||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no beatport page with Check title in search results",
+   "by": "haiku-search"
+  },
+  "oolacile|crypto||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no page for Crypto by Oolacile; only near-miss Crypt and Ice tracks in results",
+   "by": "haiku-search"
+  },
+  "oolacile|omg||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Oolacile OMG page found; search gave unrelated tracks",
+   "by": "haiku-search"
+  },
+  "peekaboo (usa)|maniac||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "beatport Maniac 20005044 is Control Alt Delete extended mix not PEEKABOO; other candidate fetch failed",
+   "by": "haiku-search"
+  },
+  "phaseone|kung fu||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "fetched Beatport page was Virtual Riot Showdown, not PhaseOne Kung Fu; no matching page found",
+   "by": "haiku-search"
+  },
+  "phaseone|welcome to mayhem|VIP|phaseone": {
+   "key": "E Major",
+   "camelot": "12B",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/-/10532446",
+   "sourceType": "beatport",
+   "note": "Matched the VIP. Beatport titles it 'Welcome To Mayhem ft. In Hearts Wake VIP' (its mix field still says 'Original Mix'). Disciple, released 2018-05-11, from the Double Up EP. For comparison, songbpm ",
+   "by": "opus-search"
+  },
+  "phiso|jotaro||": {
+   "key": "Eb Minor",
+   "camelot": "2A",
+   "bpm": 140,
+   "source": "https://www.beatport.com/track/-/7767261",
+   "sourceType": "beatport",
+   "note": "Original Mix, SMOG, 2016-03-25. Mixgraph lists the same values.",
+   "by": "opus-search"
+  },
+  "phiso|pattern screamer||": {
+   "key": "Gb Major",
+   "camelot": "2B",
+   "bpm": 142,
+   "source": "https://www.beatport.com/it/track/pattern-screamer/11102728",
+   "sourceType": "beatport",
+   "note": "Phiso Pattern Screamer Original Mix matched on Beatport page",
+   "by": "haiku-search"
+  },
+  "phiso|wasteland||": {
+   "key": "C Minor",
+   "camelot": "5A",
+   "bpm": 99,
+   "source": "https://www.beatport.com/track/-/7105808",
+   "sourceType": "beatport",
+   "note": "Matched the original mix: Rottun Recordings, released 2015-09-28. Doubt: 99 BPM is unusual for this genre and may be a detection error. songbpm disagrees on both values: A#/Bb minor, 140. Check by ear",
+   "by": "opus-search"
+  },
+  "pitbull|put your fuckin hands up||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: no Pitbull Put Your Fuckin Hands Up page; checked hit was Hands Up by DJ Vadim",
+   "by": "haiku-search"
+  },
+  "ray volpe|rave rage||": {
+   "key": "Db Major",
+   "camelot": "3B",
+   "bpm": 150,
+   "source": "https://songdata.io/track/7JIvBlxZDwfmqevVbm6Ka6/Rave-Rage-by-Ray-Volpe",
+   "sourceType": "other",
+   "note": "no beatport or mixgraph page found, songdata original mix",
+   "by": "haiku-search"
+  },
+  "rekoil+ubur|red hot||": {
+   "key": "C# Minor",
+   "camelot": "12A",
+   "bpm": 145,
+   "source": "https://tunebat.com/Info/Red-Hot-UBUR-Rekoil/1fZ5ZKDkYt9M2vPgwfccB4",
+   "sourceType": "tunebat",
+   "note": "Spotify credits UBUR and Rekoil, released 2018-07-27; Spotify places it on 'Black Friday Vol. 21'. songbpm agrees: 145 BPM, C#/Db minor. No Beatport track page found.",
+   "by": "opus-search"
+  },
+  "riot ten+sullivan king|fuck it||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: search gave no Fuck It track page, only artist bios and unrelated tracks",
+   "by": "haiku-search"
+  },
+  "riot ten+sullivan king|pit boss|REMIX|badklaat": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "search showed no Pit Boss BadKlaat remix page only artist profiles and other tracks",
+   "by": "haiku-search"
+  },
+  "riot ten|no surrender||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "beatport page found was No Surrender by Melysma and Oracle MC, different artist; no Riot Ten page",
+   "by": "haiku-search"
+  },
+  "riot ten|rail breaker||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no matching beatport mixgraph tunebat or songbpm page in search results",
+   "by": "haiku-search"
+  },
+  "riot ten|rail breaker|REMIX|perileyes+squnto": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 145,
+   "source": "https://www.beatport.com/track/rail-breaker-feat-rico-act/9991831",
+   "sourceType": "beatport",
+   "note": "Exact remix match, Dim Mak Records, 2017-12-15. This is an official release, not a bootleg.",
+   "by": "opus-search"
+  },
+  "rusko|woo boost||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Rusko Woo Boost: search returned no Woo Boost page, only other Rusko tracks on mixgraph",
+   "by": "haiku-search"
+  },
+  "san holo+what so not|if you only knew||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no track page for If You Only Knew; only mixgraph artist profiles for What So Not and San Holo",
+   "by": "haiku-search"
+  },
+  "san holo+what so not|if you only knew|REMIX|kill the noise": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no track page for If You Only Knew Kill The Noise Remix; only artist profiles in results",
+   "by": "haiku-search"
+  },
+  "sfam+tvboo|dahshigo||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Dahshigo page in search results; only unrelated Sfam tracks",
+   "by": "haiku-search"
+  },
+  "shakewell|leglock||": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 155,
+   "source": "https://tunebat.com/Info/Leglock-Shakewell-Mikey-The-Magician/0hSJiWkzBTvJKrX5yHHBeJ",
+   "sourceType": "tunebat",
+   "note": "Only release found: hip-hop track from Shakewell's Big Juice tha Sip (2018-05-18). Mikey The Magician is a co-artist. Unverified whether SQUNTO played this exact version or an edit/acapella.",
+   "by": "opus-search"
+  },
+  "skellism+terror bass|in the pit||": {
+   "key": "Eb Minor",
+   "camelot": "2A",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/in-the-pit/15757362",
+   "sourceType": "beatport",
+   "note": "Beatport credits Lil Jon, Skellism, Terror Bass. Original Mix, Geffen Records, 2017-06-21.",
+   "by": "opus-search"
+  },
+  "skism|experts|REMIX|barely alive": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Experts Barely Alive remix: search gave no track page, only unrelated SKisM tracks and a release",
+   "by": "haiku-search"
+  },
+  "skism|rave review||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Rave Review page in results; only unrelated tracks and artist pages",
+   "by": "haiku-search"
+  },
+  "slander+wavedash|move back||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "only a Beatport release page and edmtunes pages, no track page",
+   "by": "haiku-search"
+  },
+  "snails|king is back|REMIX|mastadon": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Not found. The official The Shell (Remixes) tracklist only has a MARAUDA remix of King Is Back (Mastadon remixed a different track there). Spotify has the Original, Metal, MARAUDA, Bad Royale and Snai",
+   "by": "opus-search"
+  },
+  "snails|smack up|REMIX|svdden death": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: no Snails Smack Up SVDDEN DEATH remix page; checked hit was Behemoth VIP by Svdden Death",
+   "by": "haiku-search"
+  },
+  "snails|the anthem|REMIX|ubur": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "beatport page 5247893 is a different track (Trance.Mission Chris SX Remix); no UBUR remix page found",
+   "by": "haiku-search"
+  },
+  "soltan|sahara||": {
+   "key": "Gb Major",
+   "camelot": "2B",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/-/9690678",
+   "sourceType": "beatport",
+   "note": "Matched the original mix: Never Say Die Records, released 2017-09-01. Gb Major is the same key as F# Major. Mixgraph agrees (F# major, 150). songbpm disagrees: B minor, 112.",
+   "by": "opus-search"
+  },
+  "soltan|sick||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Soltan Sick HU$H: no match; the Sick Beatport page is by Almost Human, a different artist",
+   "by": "haiku-search"
+  },
+  "soltan|the realm||": {
+   "key": "F# Minor",
+   "camelot": "11A",
+   "bpm": 150,
+   "source": "https://tunebat.com/Info/The-Realm-Soltan/7HLiJlhWSkdyI2JXiY1oBz",
+   "sourceType": "tunebat",
+   "note": "Original single (Spotify 7HLiJlhWSkdyI2JXiY1oBz). mixgraph.io agrees: 150 BPM, 11A F# minor. No Beatport track page found.",
+   "by": "opus-search"
+  },
+  "somnium sound+svdden death|angel style||": {
+   "key": "D Major",
+   "camelot": "10B",
+   "bpm": 145,
+   "source": "https://tunebat.com/Info/Angel-Style-SVDDEN-DEATH-Somnium-Sound/6loRVLAxkTpMWRbT7Pt5se",
+   "sourceType": "tunebat",
+   "note": "Original single, 2018-02-02. Relative minor would be B minor if the mode is wrong.",
+   "by": "opus-search"
+  },
+  "space laces+topi|ultimate destruction||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Ultimate Destruction page in search results",
+   "by": "haiku-search"
+  },
+  "space laces|bugbass||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: search gave no Bugbass track page, only unrelated releases",
+   "by": "haiku-search"
+  },
+  "space laces|kaiju||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: results had only Teej Kaiju and Kaiju Creeper, no Space Laces Kaiju",
+   "by": "haiku-search"
+  },
+  "space laces|overdrive||": {
+   "key": "Gb Minor",
+   "camelot": "11A",
+   "bpm": 76,
+   "source": "https://www.beatport.com/track/-/10668446",
+   "sourceType": "beatport",
+   "note": "Matched the original mix: Never Say Die Records, released 2018-06-06, the title track of the Overdrive EP. Gb Minor is the same key as F# Minor. Beatport lists the half-time tempo (76). songbpm disagr",
+   "by": "opus-search"
+  },
+  "space laces|torque||": {
+   "key": "Eb Major",
+   "camelot": "5B",
+   "bpm": 145,
+   "source": "https://www.beatport.com/track/-/10570554",
+   "sourceType": "beatport",
+   "note": "Original Mix, Never Say Die Records, 2018-05-09.",
+   "by": "opus-search"
+  },
+  "space laces|torque|VIP|space laces": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": "https://songdata.io/track/4vK4hGPmn82dIvbfwhOFaN/Torque-by-Space-Laces",
+   "sourceType": "other",
+   "note": "songdata page is Torque original, no VIP shown; not matched",
+   "by": "haiku-search"
+  },
+  "spag heddy|ernstig||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": "https://songbpm.com/@spag-heddy/ernstig",
+   "sourceType": "songbpm",
+   "note": "not recorded: songbpm page is Ernstig by SPAG, key shown as C#/Db with no mode, and its slug hints at a Pierce Remix so the version is unconfirmed",
+   "by": "haiku-search"
+  },
+  "spag heddy|oh my||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: search showed no Spag Heddy Oh My page",
+   "by": "haiku-search"
+  },
+  "spag heddy|reddy the throne||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Reddy The Throne page in search results",
+   "by": "haiku-search"
+  },
+  "spag heddy|that's right||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: search gave no Spag Heddy That's Right page, the tunebat hit is Kdence and Vayu",
+   "by": "haiku-search"
+  },
+  "squnto|bugbait||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Not found on Beatport, Spotify, Tunebat or songbpm. Likely an unreleased ID at the time.",
+   "by": "opus-search"
+  },
+  "squnto|dust||": {
+   "key": "C# Minor",
+   "camelot": "12A",
+   "bpm": 145,
+   "source": "https://tunebat.com/Info/DUST-SQUNTO/5FAaYBZSQMDuivIcPu8Fb9",
+   "sourceType": "tunebat",
+   "note": "From Bassrush Massive: The Album (2018-07-13). No Beatport track page found.",
+   "by": "opus-search"
+  },
+  "squnto|i get||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Not found. Not on songbpm's SQUNTO page (Deth Bounce, DUST, RTB, Sayim, Thunderdome, Wall of Death). Mixgraph has no SQUNTO artist page. Probably unreleased or SoundCloud-only.",
+   "by": "opus-search"
+  },
+  "squnto|justa||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Not found on Beatport, Spotify, Tunebat or songbpm. Likely an unreleased ID at the time.",
+   "by": "opus-search"
+  },
+  "squnto|sayim||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/-/13007173",
+   "sourceType": "beatport",
+   "note": "Matched the original mix: Crowsnest Audio, released 2016-10-31. A Monxx Remix also exists; this is not it. songbpm disagrees: C#/Db major, 75.",
+   "by": "opus-search"
+  },
+  "subtronics|blastin||": {
+   "key": "Gb Minor",
+   "camelot": "11A",
+   "bpm": 72,
+   "source": "https://www.beatport.com/it/track/blastin/10497331",
+   "sourceType": "beatport",
+   "note": "The track's own Beatport page (Italian locale; English URL https://www.beatport.com/track/blastin/10497331). Original Mix, Wook Laser EP, 2018-04-20. Gb Minor = F# minor. Half time (72 = 144).",
+   "by": "opus-search"
+  },
+  "subtronics|thermal expansion||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: no Thermal Expansion page in results",
+   "by": "haiku-search"
+  },
+  "svdden death+yakz|shut 'em down||": {
+   "key": "E Major",
+   "camelot": "12B",
+   "bpm": 140,
+   "source": "https://tunebat.com/Info/Shut-Em-Down-SVDDEN-DEATH-YAKZ/6ddq6B2UrXV8NJbFUZWwlu",
+   "sourceType": "tunebat",
+   "note": "Original single, 2017-09-25. Spotify-derived mode may be unreliable for dubstep; relative minor would be C# minor.",
+   "by": "opus-search"
+  },
+  "svdden death|behemoth||": {
+   "key": "A# Major",
+   "camelot": "6B",
+   "bpm": 140,
+   "source": "https://www.beatport.com/de/track/behemoth/13062858",
+   "sourceType": "beatport",
+   "note": "Original Mix on SVDDEN DEATH RECORDS, 2018-07-30. Sources disagree on key: a second Beatport listing of the same Original Mix (Create Music Group, https://www.beatport.com/track/behemoth/13647248) say",
+   "by": "opus-search"
+  },
+  "svdden death|castles||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Castles page in results; only unrelated SVDDEN DEATH titles",
+   "by": "haiku-search"
+  },
+  "svdden death|last life||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Last Life page in results; only unrelated SVDDEN DEATH and other tracks",
+   "by": "haiku-search"
+  },
+  "svdden death|prismatic||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Prismatic original: Beatport pages checked were Svdden Death tracks Behemoth VIP and Yargonaut, not Prismatic",
+   "by": "haiku-search"
+  },
+  "svdden death|take ya head off||": {
+   "key": "B Major",
+   "camelot": "1B",
+   "bpm": 140,
+   "source": "https://tunebat.com/Info/Take-Ya-Head-Off-SVDDEN-DEATH/75vNXX9hCL0yCAbYWKBBsB",
+   "sourceType": "tunebat",
+   "note": "Spotify single, released 2017-07-28, 4:21. songbpm agrees: 140 BPM, B major. No Beatport track page found (Beatport 12593058 is Behemoth VIP and was rejected).",
+   "by": "opus-search"
+  },
+  "tc|get down low||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 88,
+   "source": "https://www.beatport.com/track/-/4917938",
+   "sourceType": "beatport",
+   "note": "Original Mix, Get Down Low EP, OWSLA (Beatport date 2015-03-04). Sources disagree: songbpm (Spotify data) says 173 BPM, F#/Gb major. 88 is half of about 175, so this is a drum and bass tempo, not 140-",
+   "by": "opus-search"
+  },
+  "the frim|swipe my swords||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "search showed no Swipe My Swords page only unrelated Frim tracks",
+   "by": "haiku-search"
+  },
+  "the immortals|techno syndrome||": {
+   "key": "G",
+   "camelot": null,
+   "bpm": 134,
+   "source": "https://songbpm.com/@the-immortals/techno-syndrome-mortal-kombat",
+   "sourceType": "songbpm",
+   "note": "original mix, no beatport page; key shown without mode",
+   "by": "haiku-search"
+  },
+  "the soca boys|follow the leader||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no beatport or other key page for Follow The Leader by The Soca Boys in search results",
+   "by": "haiku-search"
+  },
+  "tisoki|symmetry||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Tisoki Symmetry: no Symmetry page in search results; hits were other titles",
+   "by": "haiku-search"
+  },
+  "trampa+trollphace|headbang gang||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: search gave no Headbang Gang page, only unrelated beatport tracks",
+   "by": "haiku-search"
+  },
+  "trampa|middle fingers||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: no Trampa Middle Fingers page in results",
+   "by": "haiku-search"
+  },
+  "trampa|rocket fuel||": {
+   "key": "D Minor",
+   "camelot": "7A",
+   "bpm": 148,
+   "source": "https://www.beatport.com/track/-/9509470",
+   "sourceType": "beatport",
+   "note": "Original Mix, NSD: Black Label, 2017-07-10.",
+   "by": "opus-search"
+  },
+  "trampa|runners||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Trampa Runners page in search results; only unrelated titles",
+   "by": "haiku-search"
+  },
+  "trolley snatcha|scotch bonnet||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Scotch Bonnet page in results; only unrelated tracks and artist page",
+   "by": "haiku-search"
+  },
+  "ubur|deathtrap||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Not found. The only Beatport 'DEATHTRAP' (track 18055201) is by FiXiT (Crowsnest Audio, 2023), not UBUR, so it was rejected. Not on Mixgraph's UBUR page. Probably unreleased or SoundCloud-only.",
+   "by": "opus-search"
+  },
+  "virtual riot|deep shit 3||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no page for Deep Shit 3 by Virtual Riot in search results",
+   "by": "haiku-search"
+  },
+  "virtual riot|dragons||": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 70,
+   "source": "https://www.beatport.com/track/dragons-original-mix/8304377",
+   "sourceType": "beatport",
+   "note": "Original Mix, Disciple, 2016-09-12. A second Beatport listing (track 9346056, 2017-05-26) agrees on 70 / F Major. The 70 BPM is half time (140). songbpm says C#/Db major 140 and was not used.",
+   "by": "opus-search"
+  },
+  "virtual riot|komputermusik||": {
+   "key": "C# Major",
+   "camelot": "3B",
+   "bpm": 75,
+   "source": "https://tunebat.com/Info/Komputermusik-Virtual-Riot/25GcNk1AqlRmtcdWONCc3z",
+   "sourceType": "tunebat",
+   "note": "German Engineering EP (Disciple, 2018-01-31). Sources disagree: songbpm.com/@virtual-riot/komputermusik also says C#/Db at 75, but mixgraph.io says F minor (4A) at 150. Tunebat and songbpm both appear",
+   "by": "opus-search"
+  },
+  "virtual riot|pray for riddim||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 91,
+   "source": "https://www.beatport.com/track/pray-for-riddim-original-mix/10176287",
+   "sourceType": "beatport",
+   "note": "Original Mix, Disciple, 2018-01-31. A second Beatport listing (track 11055646, Rapture compilation, 2018-09-21) also shows 91 / F Minor. The 91 BPM is very likely a Beatport mis-tag: songbpm says 75 (",
+   "by": "opus-search"
+  },
+  "virtual riot|purple dragons|VIP|virtual riot": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Purple Dragons VIP page in search results; Simulation VIP is a different track",
+   "by": "haiku-search"
+  },
+  "warrioez|nothing on me|REMIX|phiso": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "search showed no Nothing On Me Phiso remix page only artist profile and unrelated tracks",
+   "by": "haiku-search"
+  },
+  "wavedash|bang||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: beatport hit was Phedre Bang original, artist mismatch, no WAVEDASH page in results",
+   "by": "haiku-search"
+  },
+  "wooli+yookie|voodoo||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: beatport Voodoo hits were Noisia Silcrow remix and ISMAIL.M Jebby Jay, no YOOKiE and Wooli page",
+   "by": "haiku-search"
+  },
+  "wooli|back||": {
+   "key": "F Minor",
+   "camelot": "4A",
+   "bpm": 75,
+   "source": "https://www.mixgraph.io/tracks/wooli-back",
+   "sourceType": "mixgraph",
+   "note": "original mix, page shows 4A (F Minor) Camelot",
+   "by": "haiku-search"
+  },
+  "wooli|throw it up||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "both beatport Throw It Up pages are other artists Ondamike and Glaive; no Wooli page",
+   "by": "haiku-search"
+  },
+  "wooli|wave it up||": {
+   "key": "E Minor",
+   "camelot": "9A",
+   "bpm": 150,
+   "source": "https://songbpm.com/@wooli/wave-it-up-feat--clinton-sly-gYQ8fRKQs0",
+   "sourceType": "songbpm",
+   "note": "Single songbpm listing (3:02) credited with Clinton Sly. No Beatport page or other source found to cross-check.",
+   "by": "opus-search"
+  },
+  "xaebor|don't stop||": {
+   "key": "B Minor",
+   "camelot": "10A",
+   "bpm": 140,
+   "source": "https://tunebat.com/Info/Don-t-Stop-XaeboR/1RDTW4aAMRQCDOFSv5zmSL",
+   "sourceType": "tunebat",
+   "note": "XaeboR original (Spotify 1RDTW4aAMRQCDOFSv5zmSL, released 2017-05-05, also on Black Friday Vol. 6). Not the many other 'Don't Stop' titles on Beatport.",
+   "by": "opus-search"
+  },
+  "yeah yeah yeahs|heads will roll|REMIX|a-trak remix / kid kamillion trap": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "search had no beatport mixgraph tunebat or songbpm page for A-Trak or Kid Kamillion remix",
+   "by": "haiku-search"
+  },
+  "yogi|burial||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": "https://www.beatport.com/track/-/5992333",
+   "sourceType": null,
+   "note": "only Moody Good remix page found; original not matched",
+   "by": "haiku-search"
+  },
+  "yogi|burial|REMIX|skrillex+trollphace": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Burial TrollPhace remix page in search results",
+   "by": "haiku-search"
+  },
+  "yogi|burial|REMIX|skrillex+trollphace remix / chodegang": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no page for YOGI Burial Skrillex TrollPhace or Chodegang remix; Beatport results unlabeled",
+   "by": "haiku-search"
+  },
+  "yookie|intruder alert||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "no Intruder Alert page in results; only alert and unrelated titles",
+   "by": "haiku-search"
+  },
+  "yookie|project 9||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "beatport release page Project 9 by YOOKiE shows no key or BPM and no track page found",
+   "by": "haiku-search"
+  },
+  "zomboy|get with the program|REMIX|eptic+trampa": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "beatport The Program page is Dark Vektor not Zomboy and no Get With The Program Trampa remix found",
+   "by": "haiku-search"
+  },
+  "zomboy|invaders||": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 145,
+   "source": "https://www.beatport.com/track/-/8313257",
+   "sourceType": "beatport",
+   "note": "Matched the original mix: NSD: Black Label, released 2016-08-29. Found through Mixgraph's Beatport link. songbpm (Spotify data) disagrees: A#/Bb major, 145.",
+   "by": "opus-search"
+  },
+  "zomboy|lights out||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: Beatport Lights Out hits were by LAYZ and Hydraulix, not Zomboy",
+   "by": "haiku-search"
+  },
+  "zomboy|like a bitch||": {
+   "key": "F Major",
+   "camelot": "7B",
+   "bpm": 150,
+   "source": "https://www.beatport.com/track/-/7525773",
+   "sourceType": "beatport",
+   "note": "Matched the original mix: Never Say Die Records, released 2016-01-22. This is not the Kill The Noise remix. songbpm disagrees: F#/Gb major, 150.",
+   "by": "opus-search"
+  },
+  "zomboy|young & dangerous||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "not found: search gave no Zomboy Young and Dangerous page, beatport hit was Krimer Knockout",
+   "by": "haiku-search"
+  },
+  "zubah|bowserblockz||": {
+   "key": null,
+   "camelot": null,
+   "bpm": null,
+   "source": null,
+   "sourceType": null,
+   "note": "Not found. Mixgraph lists only 4 Zubah tracks. 'Giga Bowser' (140 BPM, Bb minor) is a different track and was not used.",
+   "by": "opus-search"
+  }
+ }
+}
