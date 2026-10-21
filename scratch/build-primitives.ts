@@ -3,9 +3,13 @@ import path from 'node:path';
 import zlib from 'node:zlib';
 import {Jukebox} from '../src/model.ts';
 import {parseTracklist} from '../src/parser.ts';
+import {trackIdentity, artistKey} from '../src/identity.ts';
+import {writeParts} from './migrate-v1-to-v2.ts';
 
 const corpusDir=process.argv[2]??'corpus/lost-lands-2018';
-const outFile=process.argv[3]??'data/lostlands-2018.jukebox.json.gz';
+// Writes the v2 store as part files (data/lostlands-2018.v2.json.gz.partNN). A corpus rebuild replaces the migrated store:
+// the v2 parser drops transitions across ID lines and merges identity splits at the source.
+const outFile=process.argv[3]??'data/lostlands-2018.v2.json.gz';
 
 function splitSelectorMembers(text:string){
   const truncated=/\+\s*More\b/i.test(text);
@@ -27,13 +31,14 @@ for(const file of files){
   parsed.push({file,selector,date,tracklist});
 }
 
-const artistNames=new Set(jb.listArtists().map(a=>a.name));
-for(const p of parsed) for(const m of splitSelectorMembers(p.selector).members) artistNames.add(m);
-const artists=[...artistNames].sort((a,b)=>a.localeCompare(b));
-const artistId=new Map(artists.map((a,i)=>[a,i]));
+const artistNames=new Map(jb.listArtists().map(a=>[artistKey(a.name),a.name]));
+for(const p of parsed) for(const m of splitSelectorMembers(p.selector).members) if(!artistNames.has(artistKey(m))) artistNames.set(artistKey(m),m);
+const artists=[...artistNames.values()].sort((a,b)=>a.localeCompare(b));
+const artistIndex=new Map(artists.map((a,i)=>[artistKey(a),i]));
+const artistId={get:(name:string)=>artistIndex.get(artistKey(name))};
 const tracks=jb.listTracks();
 const trackId=new Map(tracks.map((t,i)=>[t.pk,i]));
-const trackRows=tracks.map(t=>[t.pk,t.title,t.originalArtists.map(a=>artistId.get(a.name)),t.featuredArtists.map(a=>artistId.get(a.name)),t.variation?.type??null,t.variation?.creditArtists.map(a=>artistId.get(a.name))??[]]);
+const trackRows=tracks.map(t=>[t.pk,t.title,t.originalArtists.map(a=>artistId.get(a.name)),t.featuredArtists.map(a=>artistId.get(a.name)),t.variation?.type??null,t.variation?.creditArtists.map(a=>artistId.get(a.name))??[],trackIdentity(t.originalArtists.map(a=>a.name),t.title,t.variation?.type,t.variation?.creditArtists.map(a=>a.name)??[])]);
 const dates=[...new Set(parsed.map(p=>p.date).filter((x):x is string=>!!x))].sort();
 const dateId=new Map(dates.map((d,i)=>[d,i]));
 const selectorGroups:{members:number[];label:string;truncated:boolean}[]=[];
@@ -43,17 +48,17 @@ function groupFor(label:string){let id=selectorGroupId.get(label);if(id!==undefi
 // Derived primitives only: no raw source lines, URLs, set titles, or complete ordered tracklists.
 const selections:number[][]=[];
 const transitions:number[][]=[];
-let rejectedRows=0;
+let rejectedRows=0, gapsRespected=0;
 for(const p of parsed){
   const g=groupFor(p.selector),d=p.date?dateId.get(p.date)!:-1;
   const ids:number[]=[];
   for(const e of p.tracklist.entries){const t=jb.findTrack(e);if(!t)throw new Error(`resolved track missing for ${p.file}`);const id=trackId.get(t.pk)!;ids.push(id);selections.push([id,g,d]);}
-  for(let i=1;i<ids.length;i++)transitions.push([ids[i-1],ids[i],g,d]);
+  for(let i=1;i<ids.length;i++) if(!p.tracklist.breaksBefore.has(i)) transitions.push([ids[i-1],ids[i],g,d]); else gapsRespected++;
   rejectedRows+=p.tracklist.rejectedLines.length;
 }
-const payload={schema:'jukebox-primitives/v1',meta:{corpus:'lost-lands-2018',sourceFiles:files.length,rejectedRows,tracks:tracks.length,selectionEvents:selections.length,transitionEvents:transitions.length},artists,tracks:trackRows,selectorGroups:selectorGroups.map(g=>[g.members,g.label,g.truncated?1:0]),dates,selections,transitions};
+const payload={schema:'jukebox-primitives/v2',meta:{corpus:'lost-lands-2018',sourceFiles:files.length,rejectedRows,gapsRespected,tracks:tracks.length,artists:artists.length,selectionEvents:selections.length,transitionEvents:transitions.length,trackRow:['pk','title','primaryArtists','featuredArtists','variationType','variationArtists','identity']},artists,tracks:trackRows,selectorGroups:selectorGroups.map(g=>[g.members,g.label,g.truncated?1:0]),dates,selections,transitions};
 const json=Buffer.from(JSON.stringify(payload));
 const gz=zlib.gzipSync(json,{level:9});
 fs.mkdirSync(path.dirname(outFile),{recursive:true});
-fs.writeFileSync(outFile,gz);
+writeParts(outFile,gz);
 console.log(JSON.stringify({rawJsonBytes:json.length,gzipBytes:gz.length,...payload.meta}));
