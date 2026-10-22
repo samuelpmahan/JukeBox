@@ -1,11 +1,20 @@
 {
   "name": "jukebox",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "scripts": {
     "test": "node --experimental-strip-types --test src/*.test.ts",
     "jukebox": "node --experimental-strip-types src/cli.ts",
-    "build:primitives": "node --experimental-strip-types scratch/build-primitives.ts"
+    "audit": "node --experimental-strip-types src/cli.ts audit",
+    "build:primitives": "node --experimental-strip-types scratch/build-primitives.ts",
+    "migrate:v2": "node --experimental-strip-types scratch/migrate-v1-to-v2.ts",
+    "keys:batches": "node --experimental-strip-types scratch/keyjobs/make-batches.ts",
+    "keys:collect": "node --experimental-strip-types scratch/keyjobs/collect.ts",
+    "keys:build": "node --experimental-strip-types scratch/build-keys.ts",
+    "serve": "node scratch/serve.mjs"
+  },
+  "engines": {
+    "node": ">=22.6"
   }
 }

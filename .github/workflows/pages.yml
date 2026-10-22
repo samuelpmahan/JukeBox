@@ -3,6 +3,7 @@ name: Deploy JukeBox Page
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -11,11 +12,25 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Unit tests and data audit
+        run: npm test
+      - name: Identity audit
+        run: npm run audit
+
   deploy:
+    needs: test
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -32,12 +47,19 @@ jobs:
         run: |
           set -euo pipefail
           rm -rf _site
-          mkdir -p _site/data
+          mkdir -p _site/data _site/src
           cp index.html _site/index.html
-          cat data/lostlands-2018.jukebox.json.gz.part* > _site/data/lostlands-2018.jukebox.json.gz
-          gzip -t _site/data/lostlands-2018.jukebox.json.gz
-          actual="$(sha256sum _site/data/lostlands-2018.jukebox.json.gz | awk '{print $1}')"
-          expected="7e0b652aac543fbe89e80e8b47b5e7f0e67ac622ee20ae2426bd6d07492eb8a5"
+          cp src/camelot.js _site/src/camelot.js
+          cp data/lostlands-2018.keys.json _site/data/lostlands-2018.keys.json
+
+          # v1 is the migration source; it stays pinned so the v2 repair is reproducible.
+          v1="$(cat data/lostlands-2018.jukebox.json.gz.part* | sha256sum | awk '{print $1}')"
+          test "$v1" = "7e0b652aac543fbe89e80e8b47b5e7f0e67ac622ee20ae2426bd6d07492eb8a5"
+
+          cat data/lostlands-2018.v2.json.gz.part* > _site/data/lostlands-2018.v2.json.gz
+          gzip -t _site/data/lostlands-2018.v2.json.gz
+          actual="$(sha256sum _site/data/lostlands-2018.v2.json.gz | awk '{print $1}')"
+          expected="78fa12e95c3342c8a01490b740fff53dd0dfe36de18edbb2535082c09b532fb7"
           test "$actual" = "$expected"
           echo "primitive gzip verified: $actual"
           find _site -maxdepth 2 -type f -print -exec du -h {} \;
